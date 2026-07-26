@@ -1,45 +1,62 @@
 # 📊 LeetCode SQL Practice
+**Daily SQL problem-solving journey** — building strong SQL fundamentals through LeetCode, one problem at a time.
 
-**Daily SQL problem-solving log** — building fluency with `SELECT`, `JOIN`, window functions, CTEs, and more, one problem at a time.
-
-**Status:** 🟢 Actively solving · **Language:** MySQL
+**Language:** MySQL
+**Study Plan:** SQL 50
+**Progress:** **8 / 50** ✅
 
 ---
 
-## 📁 Structure
-
-Each problem lives in its own folder under `SQL/`:
-
-```
+## 📁 Repository Structure
+```text
 SQL/
-└── 1757_Recyclable_and_Low_Fat_Products/
-    ├── Readme.md      → problem summary, solution, and explanation
-    └── solution.sql   → the query itself
+├── 1757_Recyclable_and_Low_Fat_Products/
+│   ├── README.md
+│   └── solution.sql
+└── 1661_Average_Time_of_Process_per_Machine/
+    ├── README.md
+    └── solution.sql
 ```
+Each problem folder contains:
+- 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
+- 💻 `solution.sql` — Accepted MySQL solution
 
 ---
 
-## 📈 Progress Log
+## 📈 Progress
 
-| # | Problem | Difficulty | Concepts | Solution |
-|---|---|---|---|---|
-| 1757 | Recyclable and Low Fat Products | 🟢 Easy | `WHERE`, `AND` | [Readme](./SQL/1757_Recyclable_and_Low_Fat_Products/Readme.md) · [SQL](./SQL/1757_Recyclable_and_Low_Fat_Products/solution.sql) |
-| 1581 | Customer Who Visited but Did Not Make Any Transactions | 🟢 Easy | `LEFT JOIN`, `IS NULL` | — |
+| # | Problem | Difficulty | Concepts |
+|---:|---|:---:|---|
+| 1757 | Recyclable and Low Fat Products | 🟢 Easy | `WHERE`, `AND` |
+| 584 | Find Customer Referee | 🟢 Easy | `NULL`, `IS NULL`, `OR` |
+| 595 | Big Countries | 🟢 Easy | `WHERE`, `OR` |
+| 1148 | Article Views I | 🟢 Easy | `DISTINCT`, `ORDER BY` |
+| 1683 | Invalid Tweets | 🟢 Easy | `LENGTH()` |
+| 1378 | Replace Employee ID With The Unique Identifier | 🟢 Easy | `LEFT JOIN` |
+| 1068 | Product Sales Analysis I | 🟢 Easy | `INNER JOIN` |
+| 1661 | Average Time of Process per Machine | 🟢 Easy | `SELF JOIN`, `GROUP BY`, `AVG()`, `ROUND()` |
 
-> New rows get added as problems are solved — this table is the running index.
+> This table is updated as I solve more problems.
 
 ---
 
 ## 🎯 Goal
-
-Solve consistently, a few problems a day, moving from basic filtering toward joins, subqueries, window functions, and CTEs — with each README documenting not just the answer but *why* it works.
+Build strong SQL fundamentals by consistently solving problems covering filtering, joins, aggregation, subqueries, and advanced SQL concepts.
 
 ---
 
-## 🧠 What I'm Practicing
+## 🧠 Topics
 
-- `SELECT` / `WHERE` / `AND` / `OR`
-- `JOIN` types (`INNER`, `LEFT`, `FULL`) and the `IS NULL` anti-join pattern
-- Aggregations: `GROUP BY`, `HAVING`, `COUNT`, `SUM`
-- Window functions: `ROW_NUMBER`, `RANK`, `LAG`/`LEAD`
-- CTEs and subqueries
+**Covered so far:**
+- `SELECT` & `WHERE`
+- `AND` / `OR`
+- `NULL` Handling
+- `INNER JOIN` & `LEFT JOIN`
+- Self-Joins
+- Aggregate Functions (`AVG`, `ROUND`, `DISTINCT`)
+
+**Up next:**
+- `GROUP BY` & `HAVING`
+- Subqueries
+- CTEs
+- Window Functions
