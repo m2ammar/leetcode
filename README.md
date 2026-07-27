@@ -1,19 +1,47 @@
 # 📊 LeetCode SQL Practice
+
 **Daily SQL problem-solving journey** — building strong SQL fundamentals through LeetCode, one problem at a time.
 
 **Language:** MySQL
 **Study Plan:** SQL 50
-**Progress:** **8 / 50** ✅
+**Progress:** **11 / 50** ✅
 
 ---
 
 ## 📁 Repository Structure
 ```text
 SQL/
-├── 1757_Recyclable_and_Low_Fat_Products/
+├── 197_Rising_Temperature/
 │   ├── README.md
 │   └── solution.sql
-└── 1661_Average_Time_of_Process_per_Machine/
+├── 577_Employee_Bonus/
+│   ├── README.md
+│   └── solution.sql
+├── 584_Find_Customer_Referee/
+│   ├── README.md
+│   └── solution.sql
+├── 595_Big_Countries/
+│   ├── README.md
+│   └── solution.sql
+├── 1068_Product_Sales_Analysis_I/
+│   ├── README.md
+│   └── solution.sql
+├── 1148_Article_Views_I/
+│   ├── README.md
+│   └── solution.sql
+├── 1378_Replace_Employee_ID_With_The_Unique_Identifier/
+│   ├── README.md
+│   └── solution.sql
+├── 1581_Customer_Who_Visited_but_Did_Not_Make_Any_Transactions/
+│   ├── README.md
+│   └── solution.sql
+├── 1661_Average_Time_of_Process_per_Machine/
+│   ├── README.md
+│   └── solution.sql
+├── 1683_Invalid_Tweets/
+│   ├── README.md
+│   └── solution.sql
+└── 1757_Recyclable_and_Low_Fat_Products/
     ├── README.md
     └── solution.sql
 ```
@@ -34,7 +62,10 @@ Each problem folder contains:
 | 1683 | Invalid Tweets | 🟢 Easy | `LENGTH()` |
 | 1378 | Replace Employee ID With The Unique Identifier | 🟢 Easy | `LEFT JOIN` |
 | 1068 | Product Sales Analysis I | 🟢 Easy | `INNER JOIN` |
+| 1581 | Customer Who Visited but Did Not Make Any Transactions | 🟢 Easy | `LEFT JOIN`, `IS NULL`, `GROUP BY` |
 | 1661 | Average Time of Process per Machine | 🟢 Easy | `SELF JOIN`, `GROUP BY`, `AVG()`, `ROUND()` |
+| 197 | Rising Temperature | 🟢 Easy | `SELF JOIN`, `DATEDIFF()` |
+| 577 | Employee Bonus | 🟢 Easy | `LEFT JOIN`, `IS NULL`, `OR` |
 
 > This table is updated as I solve more problems.
 
@@ -54,9 +85,11 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - `INNER JOIN` & `LEFT JOIN`
 - Self-Joins
 - Aggregate Functions (`AVG`, `ROUND`, `DISTINCT`)
+- `GROUP BY`
+- `DATEDIFF()`
 
 **Up next:**
-- `GROUP BY` & `HAVING`
+- `HAVING`
 - Subqueries
 - CTEs
 - Window Functions
