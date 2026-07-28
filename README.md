@@ -4,7 +4,7 @@
 
 **Language:** MySQL
 **Study Plan:** SQL 50
-**Progress:** **11 / 50** ✅
+**Progress:** **12 / 50** ✅
 
 ---
 
@@ -27,6 +27,9 @@ SQL/
 │   ├── README.md
 │   └── solution.sql
 ├── 1148_Article_Views_I/
+│   ├── README.md
+│   └── solution.sql
+├── 1280_Students_and_Examinations/
 │   ├── README.md
 │   └── solution.sql
 ├── 1378_Replace_Employee_ID_With_The_Unique_Identifier/
@@ -66,6 +69,7 @@ Each problem folder contains:
 | 1661 | Average Time of Process per Machine | 🟢 Easy | `SELF JOIN`, `GROUP BY`, `AVG()`, `ROUND()` |
 | 197 | Rising Temperature | 🟢 Easy | `SELF JOIN`, `DATEDIFF()` |
 | 577 | Employee Bonus | 🟢 Easy | `LEFT JOIN`, `IS NULL`, `OR` |
+| 1280 | Students and Examinations | 🟢 Easy | `CROSS JOIN`, `LEFT JOIN`, `GROUP BY`, `COUNT()` |
 
 > This table is updated as I solve more problems.
 
@@ -83,8 +87,10 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - `AND` / `OR`
 - `NULL` Handling
 - `INNER JOIN` & `LEFT JOIN`
+- `CROSS JOIN`
 - Self-Joins
-- Aggregate Functions (`AVG`, `ROUND`, `DISTINCT`)
+- Multi-column `JOIN` conditions
+- Aggregate Functions (`AVG`, `ROUND`, `DISTINCT`, `COUNT`)
 - `GROUP BY`
 - `DATEDIFF()`
 
