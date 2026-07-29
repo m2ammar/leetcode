@@ -85,7 +85,6 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 ---
 
 ## 🧠 Topics
-
 **Covered so far:**
 - `SELECT` & `WHERE`
 - `AND` / `OR`
@@ -97,9 +96,9 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - Aggregate Functions (`AVG`, `ROUND`, `DISTINCT`, `COUNT`)
 - `GROUP BY`
 - `DATEDIFF()`
-
-**Up next:**
 - `HAVING`
 - Subqueries
+
+**Up next:**
 - CTEs
 - Window Functions
