@@ -4,7 +4,7 @@
 
 **Language:** MySQL
 **Study Plan:** SQL 50
-**Progress:** **12 / 50** ✅
+**Progress:** **13 / 50** ✅
 
 ---
 
@@ -12,6 +12,9 @@
 ```text
 SQL/
 ├── 197_Rising_Temperature/
+│   ├── README.md
+│   └── solution.sql
+├── 570_Managers_with_at_Least_5_Direct_Reports/
 │   ├── README.md
 │   └── solution.sql
 ├── 577_Employee_Bonus/
@@ -70,6 +73,7 @@ Each problem folder contains:
 | 197 | Rising Temperature | 🟢 Easy | `SELF JOIN`, `DATEDIFF()` |
 | 577 | Employee Bonus | 🟢 Easy | `LEFT JOIN`, `IS NULL`, `OR` |
 | 1280 | Students and Examinations | 🟢 Easy | `CROSS JOIN`, `LEFT JOIN`, `GROUP BY`, `COUNT()` |
+| 570 | Managers with at Least 5 Direct Reports | 🟠 Medium | `GROUP BY`, `HAVING`, `COUNT()`, subquery, `JOIN` |
 
 > This table is updated as I solve more problems.
 
