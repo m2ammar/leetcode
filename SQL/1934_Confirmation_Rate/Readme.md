@@ -1,3 +1,4 @@
+# 1934. Confirmation Rate
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange)
 ![Topic](https://img.shields.io/badge/Topic-SQL-blue)
 ![Status](https://img.shields.io/badge/Status-Accepted-success)
@@ -11,7 +12,7 @@ Table `Signups` holds every user who signed up. Table `Confirmations` holds ever
 
 Find the **confirmation rate** for every user:
 
-confirmed requests / total requests   (rounded to 2 decimal places)
+confirmed requests / total requests (rounded to 2 decimal places)
 
 Users with no confirmation requests at all should show a rate of `0`.
 
