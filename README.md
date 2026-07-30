@@ -3,7 +3,9 @@
 **Daily SQL problem-solving journey** — building strong SQL fundamentals through LeetCode, one problem at a time.
 
 **Language:** MySQL
+
 **Study Plan:** SQL 50
+
 **Progress:** **14 / 50** ✅
 
 ---
