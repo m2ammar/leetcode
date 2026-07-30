@@ -18,7 +18,7 @@ Users with no confirmation requests at all should show a rate of `0`.
 ---
 
 ## ✅ Solution
-\`\`\`sql
+```sql
 SELECT s.user_id, IFNULL(a.rate, 0) AS confirmation_rate
 FROM Signups AS s
 LEFT JOIN (
@@ -26,7 +26,7 @@ LEFT JOIN (
     FROM Confirmations
     GROUP BY user_id
 ) AS a ON a.user_id = s.user_id;
-\`\`\`
+```
 
 ---
 
@@ -75,7 +75,7 @@ The `LEFT JOIN` connects those two roles by matching `s.user_id` to `a.user_id`,
 ---
 
 ## 🧠 Final Query
-\`\`\`sql
+```sql
 SELECT s.user_id, IFNULL(a.rate, 0) AS confirmation_rate
 FROM Signups AS s
 LEFT JOIN (
@@ -83,4 +83,4 @@ LEFT JOIN (
     FROM Confirmations
     GROUP BY user_id
 ) AS a ON a.user_id = s.user_id;
-\`\`\`
+```
