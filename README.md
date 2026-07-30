@@ -4,7 +4,7 @@
 
 **Language:** MySQL
 **Study Plan:** SQL 50
-**Progress:** **13 / 50** ✅
+**Progress:** **14 / 50** ✅
 
 ---
 
@@ -47,7 +47,10 @@ SQL/
 ├── 1683_Invalid_Tweets/
 │   ├── README.md
 │   └── solution.sql
-└── 1757_Recyclable_and_Low_Fat_Products/
+├── 1757_Recyclable_and_Low_Fat_Products/
+│   ├── README.md
+│   └── solution.sql
+└── 1934_Confirmation_Rate/
     ├── README.md
     └── solution.sql
 ```
@@ -74,6 +77,7 @@ Each problem folder contains:
 | 577 | Employee Bonus | 🟢 Easy | `LEFT JOIN`, `IS NULL`, `OR` |
 | 1280 | Students and Examinations | 🟢 Easy | `CROSS JOIN`, `LEFT JOIN`, `GROUP BY`, `COUNT()` |
 | 570 | Managers with at Least 5 Direct Reports | 🟠 Medium | `GROUP BY`, `HAVING`, `COUNT()`, subquery, `JOIN` |
+|1934 |	Confirmation Rate |	🟠 Medium |	`LEFT JOIN`, `subquery` , `GROUP BY` , `conditional aggregation` , `IFNULL` , `ROUND()`|
 
 > This table is updated as I solve more problems.
 
@@ -94,6 +98,7 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - Self-Joins
 - Multi-column `JOIN` conditions
 - Aggregate Functions (`AVG`, `ROUND`, `DISTINCT`, `COUNT`)
+- Conditional Aggregation (`SUM(condition)`)
 - `GROUP BY`
 - `DATEDIFF()`
 - `HAVING`
