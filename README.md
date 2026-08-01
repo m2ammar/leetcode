@@ -84,7 +84,9 @@ Each problem folder contains:
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
+
 Build strong SQL fundamentals by consistently solving problems covering filtering, joins, aggregation, subqueries, and advanced SQL concepts.
+
 ---
 ## 🧠 Topics
 **Covered so far:**
