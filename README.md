@@ -1,15 +1,9 @@
 # 📊 LeetCode SQL Practice
-
 **Daily SQL problem-solving journey** — building strong SQL fundamentals through LeetCode, one problem at a time.
-
 **Language:** MySQL
-
 **Study Plan:** SQL 50
-
-**Progress:** **14 / 50** ✅
-
+**Progress:** **16 / 50** ✅
 ---
-
 ## 📁 Repository Structure
 ```text
 SQL/
@@ -28,10 +22,16 @@ SQL/
 ├── 595_Big_Countries/
 │   ├── README.md
 │   └── solution.sql
+├── 620_Not_Boring_Movies/
+│   ├── README.md
+│   └── solution.sql
 ├── 1068_Product_Sales_Analysis_I/
 │   ├── README.md
 │   └── solution.sql
 ├── 1148_Article_Views_I/
+│   ├── README.md
+│   └── solution.sql
+├── 1251_Average_Selling_Price/
 │   ├── README.md
 │   └── solution.sql
 ├── 1280_Students_and_Examinations/
@@ -59,11 +59,8 @@ SQL/
 Each problem folder contains:
 - 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
 - 💻 `solution.sql` — Accepted MySQL solution
-
 ---
-
 ## 📈 Progress
-
 | # | Problem | Difficulty | Concepts |
 |---:|---|:---:|---|
 | 1757 | Recyclable and Low Fat Products | 🟢 Easy | `WHERE`, `AND` |
@@ -79,17 +76,14 @@ Each problem folder contains:
 | 577 | Employee Bonus | 🟢 Easy | `LEFT JOIN`, `IS NULL`, `OR` |
 | 1280 | Students and Examinations | 🟢 Easy | `CROSS JOIN`, `LEFT JOIN`, `GROUP BY`, `COUNT()` |
 | 570 | Managers with at Least 5 Direct Reports | 🟠 Medium | `GROUP BY`, `HAVING`, `COUNT()`, subquery, `JOIN` |
-|1934 |	Confirmation Rate |	🟠 Medium |	`LEFT JOIN`, `subquery` , `GROUP BY` , `conditional aggregation` , `IFNULL` , `ROUND()`|
-
+| 1934 | Confirmation Rate | 🟠 Medium | `LEFT JOIN`, `subquery`, `GROUP BY`, `conditional aggregation`, `IFNULL`, `ROUND()` |
+| 620 | Not Boring Movies | 🟢 Easy | `WHERE`, Modulo (`%`), `ORDER BY` |
+| 1251 | Average Selling Price | 🟢 Easy | `LEFT JOIN`, `BETWEEN`, weighted average, `IFNULL`/`NULL` handling, `GROUP BY` |
 > This table is updated as I solve more problems.
-
 ---
-
 ## 🎯 Goal
 Build strong SQL fundamentals by consistently solving problems covering filtering, joins, aggregation, subqueries, and advanced SQL concepts.
-
 ---
-
 ## 🧠 Topics
 **Covered so far:**
 - `SELECT` & `WHERE`
@@ -105,7 +99,8 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - `DATEDIFF()`
 - `HAVING`
 - Subqueries
-
+- Modulo (`%`)
+- Weighted Averages
 **Up next:**
 - CTEs
 - Window Functions
