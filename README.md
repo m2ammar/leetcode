@@ -1,8 +1,12 @@
 # 📊 LeetCode SQL Practice
 **Daily SQL problem-solving journey** — building strong SQL fundamentals through LeetCode, one problem at a time.
+
 **Language:** MySQL
+
 **Study Plan:** SQL 50
+
 **Progress:** **16 / 50** ✅
+
 ---
 ## 📁 Repository Structure
 ```text
