@@ -1,11 +1,9 @@
 # 📊 LeetCode SQL Practice
 **Daily SQL problem-solving journey** — building strong SQL fundamentals through LeetCode, one problem at a time.
 
-**Language:** MySQL
-
-**Study Plan:** SQL 50
-
-**Progress:** **16 / 50** ✅
+![Language](https://img.shields.io/badge/Language-MySQL-blue)
+![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
+![Progress](https://img.shields.io/badge/Progress-16%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -105,6 +103,8 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - Subqueries
 - Modulo (`%`)
 - Weighted Averages
+
+  
 **Up next:**
 - CTEs
 - Window Functions
