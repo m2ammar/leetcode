@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-16%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-17%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -15,6 +15,9 @@ SQL/
 ├── 570_Managers_with_at_Least_5_Direct_Reports/
 │   ├── README.md
 │   └── solution.sql
+├── 1075-project-employees-i
+|   |── README.md
+|   └── solution.sql
 ├── 577_Employee_Bonus/
 │   ├── README.md
 │   └── solution.sql
@@ -81,6 +84,7 @@ Each problem folder contains:
 | 1934 | Confirmation Rate | 🟠 Medium | `LEFT JOIN`, `subquery`, `GROUP BY`, `conditional aggregation`, `IFNULL`, `ROUND()` |
 | 620 | Not Boring Movies | 🟢 Easy | `WHERE`, Modulo (`%`), `ORDER BY` |
 | 1251 | Average Selling Price | 🟢 Easy | `LEFT JOIN`, `BETWEEN`, weighted average, `IFNULL`/`NULL` handling, `GROUP BY` |
+| 1075 | Project Employees I | 🟢 Easy | `JOIN`, `ON`, `GROUP BY`, `AVG()`, `ROUND()`, Table Aliases |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
