@@ -50,11 +50,12 @@ The denominator needs the **total row count of `Users`**, completely independent
 
 A subquery `(SELECT COUNT(*) FROM Users)` executes on its own, with no join and no grouping, returning a single fixed number. Because it's a single value, it can be dropped straight into the arithmetic expression as a constant — applied identically to every output row.
 
-Users Register
-+---------+ join +------------+---------+
+```
+Users              Register
++---------+   join  +------------+---------+
 | user_id | ------- | contest_id | user_id |
-+---------+ +------------+---------+
-
++---------+         +------------+---------+
+```
 
 Sample result:
 
