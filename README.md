@@ -57,7 +57,10 @@ SQL/
 ├── 1757_Recyclable_and_Low_Fat_Products/
 │   ├── README.md
 │   └── solution.sql
-└── 1934_Confirmation_Rate/
+├── 1934_Confirmation_Rate/
+|    ├── README.md
+|    └── solution.sql
+└── 1633-percentage-of-users-attended-a-contest/
     ├── README.md
     └── solution.sql
 ```
