@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-17%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-18%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -85,6 +85,7 @@ Each problem folder contains:
 | 620 | Not Boring Movies | 🟢 Easy | `WHERE`, Modulo (`%`), `ORDER BY` |
 | 1251 | Average Selling Price | 🟢 Easy | `LEFT JOIN`, `BETWEEN`, weighted average, `IFNULL`/`NULL` handling, `GROUP BY` |
 | 1075 | Project Employees I | 🟢 Easy | `JOIN`, `ON`, `GROUP BY`, `AVG()`, `ROUND()`, Table Aliases |
+| 1633 | Percentage of Users Attended a Contest | 🟢 Easy | `JOIN`, `COUNT`, `GROUP BY`, `Subquery (Scalar)`, `ROUND()`, `Multi-Column ORDER BY`, Table Aliases |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
