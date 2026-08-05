@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-19%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-20%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -63,9 +63,12 @@ SQL/
 ├── 1633-percentage-of-users-attended-a-contest/
 |    ├── README.md
 |    └── solution.sql
-└── 1211-queries-quality-and-percentage/
-     ├── solution.sql
-     └── README.md
+├── 1211-queries-quality-and-percentage/
+|     ├── solution.sql
+|     └── README.md
+└── 1193_Monthly_Transactions_I
+      ├── solution.sql
+      └── README.md
 ```
 Each problem folder contains:
 - 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
@@ -93,6 +96,7 @@ Each problem folder contains:
 | 1075 | Project Employees I | 🟢 Easy | `JOIN`, `ON`, `GROUP BY`, `AVG()`, `ROUND()`, Table Aliases |
 | 1633 | Percentage of Users Attended a Contest | 🟢 Easy | `JOIN`, `COUNT`, `GROUP BY`, `Subquery (Scalar)`, `ROUND()`, `Multi-Column ORDER BY`, Table Aliases |
 | 1211 | Queries Quality and Percentage | 🟢 Easy | `GROUP BY`, Aggregate Functions `(SUM, COUNT)`, `CASE WHEN`, `ROUND()` |
+| 1193 | Monthly Transactions I | 🟠 Medium |  `GROUP BY`, `DATE_FORMAT()`, `CASE WHEN`, `SUM()`, `COUNT()`, `Conditional Aggregation` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
@@ -101,6 +105,7 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 
 ---
 ## 🧠 Topics
+
 **Covered so far:**
 - `SELECT` & `WHERE`
 - `AND` / `OR`
@@ -109,16 +114,16 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - `CROSS JOIN`
 - Self-Joins
 - Multi-column `JOIN` conditions
-- Aggregate Functions (`AVG`, `ROUND`, `DISTINCT`, `COUNT`)
-- Conditional Aggregation (`SUM(condition)`)
+- Aggregate Functions (`COUNT`, `SUM`, `AVG`, `ROUND`, `DISTINCT`)
+- Conditional Aggregation (`SUM(CASE WHEN ...)`)
+- `CASE WHEN`
 - `GROUP BY`
-- `DATEDIFF()`
+- Date Functions (`DATE_FORMAT()`, `DATEDIFF()`)
 - `HAVING`
 - Subqueries
 - Modulo (`%`)
 - Weighted Averages
 
-  
 **Up next:**
 - CTEs
 - Window Functions
