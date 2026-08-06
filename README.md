@@ -2,8 +2,8 @@
 **Daily SQL problem-solving journey** — building strong SQL fundamentals through LeetCode, one problem at a time.
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
-![Study Plan](https://img.shields.io/badge/Study%21Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-20%2F50-brightgreen)
+![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
+![Progress](https://img.shields.io/badge/Progress-21%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
