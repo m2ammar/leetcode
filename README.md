@@ -2,7 +2,7 @@
 **Daily SQL problem-solving journey** — building strong SQL fundamentals through LeetCode, one problem at a time.
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
-![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
+![Study Plan](https://img.shields.io/badge/Study%21Plan-SQL%2050-orange)
 ![Progress](https://img.shields.io/badge/Progress-20%2F50-brightgreen)
 
 ---
@@ -63,12 +63,15 @@ SQL/
 ├── 1633-percentage-of-users-attended-a-contest/
 |    ├── README.md
 |    └── solution.sql
-├── 1211-queries-quality-and-percentage/
+├── 1211-Queries-Quality-and-Percentage/
 |     ├── solution.sql
 |     └── README.md
-└── 1193_Monthly_Transactions_I
-      ├── solution.sql
-      └── README.md
+├── 1193_Monthly_Transactions_I
+|      ├── solution.sql
+|      └── README.md
+└──  1174-Immediate-Food-Delivery-II
+       ├── solution.sql
+|      └── README.md
 ```
 Each problem folder contains:
 - 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
@@ -97,6 +100,7 @@ Each problem folder contains:
 | 1633 | Percentage of Users Attended a Contest | 🟢 Easy | `JOIN`, `COUNT`, `GROUP BY`, `Subquery (Scalar)`, `ROUND()`, `Multi-Column ORDER BY`, Table Aliases |
 | 1211 | Queries Quality and Percentage | 🟢 Easy | `GROUP BY`, Aggregate Functions `(SUM, COUNT)`, `CASE WHEN`, `ROUND()` |
 | 1193 | Monthly Transactions I | 🟠 Medium |  `GROUP BY`, `DATE_FORMAT()`, `CASE WHEN`, `SUM()`, `COUNT()`, `Conditional Aggregation` |
+| 1174 | Immediate Food Delivery II | 🟠 Medium |  `Correlated Subquery`, `GROUP BY (inner)`, `CASE WHEN`, `Aggregate Functions (SUM, COUNT, MIN)`, `ROUND()` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
@@ -121,6 +125,9 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - Date Functions (`DATE_FORMAT()`, `DATEDIFF()`)
 - `HAVING`
 - Subqueries
+  - Scalar Subqueries
+  - Correlated Subqueries
+  
 - Modulo (`%`)
 - Weighted Averages
 
