@@ -71,7 +71,7 @@ SQL/
 |      └── README.md
 └──  1174-Immediate-Food-Delivery-II
        ├── solution.sql
-|      └── README.md
+       └── README.md
 ```
 Each problem folder contains:
 - 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
