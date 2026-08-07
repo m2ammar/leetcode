@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-21%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-22%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -58,20 +58,23 @@ SQL/
 │   ├── README.md
 │   └── solution.sql
 ├── 1934_Confirmation_Rate/
-|    ├── README.md
-|    └── solution.sql
+|   ├── README.md
+|   └── solution.sql
 ├── 1633-percentage-of-users-attended-a-contest/
-|    ├── README.md
-|    └── solution.sql
+|   ├── README.md
+|   └── solution.sql
 ├── 1211-Queries-Quality-and-Percentage/
-|     ├── solution.sql
-|     └── README.md
+|   ├── solution.sql
+|   └── README.md
 ├── 1193_Monthly_Transactions_I
-|      ├── solution.sql
-|      └── README.md
-└──  1174-Immediate-Food-Delivery-II
-       ├── solution.sql
-       └── README.md
+|   ├── solution.sql
+|   └── README.md
+├──  1174-Immediate-Food-Delivery-II
+|    ├── solution.sql
+|    └── README.md
+└──  550_Game_Play_Analysis_IV
+     ├── solution.sql
+     └── README.md
 ```
 Each problem folder contains:
 - 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
@@ -101,6 +104,7 @@ Each problem folder contains:
 | 1211 | Queries Quality and Percentage | 🟢 Easy | `GROUP BY`, Aggregate Functions `(SUM, COUNT)`, `CASE WHEN`, `ROUND()` |
 | 1193 | Monthly Transactions I | 🟠 Medium |  `GROUP BY`, `DATE_FORMAT()`, `CASE WHEN`, `SUM()`, `COUNT()`, `Conditional Aggregation` |
 | 1174 | Immediate Food Delivery II | 🟠 Medium |  `Correlated Subquery`, `GROUP BY (inner)`, `CASE WHEN`, `Aggregate Functions (SUM, COUNT, MIN)`, `ROUND()` |
+| 550 | Game Play Analysis IV | 🟠 Medium |  `Self Join`, `Correlated Subquery`, `DATE_ADD`, `Conditional Aggregation`, `LEFT JOIN` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
