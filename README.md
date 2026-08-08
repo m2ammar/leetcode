@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-22%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-23%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -72,7 +72,10 @@ SQL/
 ├──  1174-Immediate-Food-Delivery-II
 |    ├── solution.sql
 |    └── README.md
-└──  550_Game_Play_Analysis_IV
+├──  550_Game_Play_Analysis_IV
+|    ├── solution.sql
+|    └── README.md
+└──  2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher
      ├── solution.sql
      └── README.md
 ```
@@ -105,6 +108,7 @@ Each problem folder contains:
 | 1193 | Monthly Transactions I | 🟠 Medium |  `GROUP BY`, `DATE_FORMAT()`, `CASE WHEN`, `SUM()`, `COUNT()`, `Conditional Aggregation` |
 | 1174 | Immediate Food Delivery II | 🟠 Medium |  `Correlated Subquery`, `GROUP BY (inner)`, `CASE WHEN`, `Aggregate Functions (SUM, COUNT, MIN)`, `ROUND()` |
 | 550 | Game Play Analysis IV | 🟠 Medium |  `Self Join`, `Correlated Subquery`, `DATE_ADD`, `Conditional Aggregation`, `LEFT JOIN` |
+| 2356 | Number of Unique Subjects Taught by Each Teacher | 🟢 Easy | `GROUP BY`, `COUNT` `DISTINCT` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
