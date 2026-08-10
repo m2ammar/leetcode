@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-24%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-25%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -78,7 +78,10 @@ SQL/
 ├──  2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher
 |    ├── solution.sql
 |    └── README.md
-└──  1141_User_Activity_for_the_Past_30_Days_I
+├──  1141_User_Activity_for_the_Past_30_Days_I
+|    ├── solution.sql
+|    └── README.md
+└──  1070_Product_Sales_Analysis_III
      ├── solution.sql
      └── README.md
 ```
@@ -113,6 +116,7 @@ Each problem folder contains:
 | 550 | Game Play Analysis IV | 🟠 Medium |  `Self Join`, `Correlated Subquery`, `DATE_ADD`, `Conditional Aggregation`, `LEFT JOIN` |
 | 2356 | Number of Unique Subjects Taught by Each Teacher | 🟢 Easy | `GROUP BY`, `COUNT` `DISTINCT` |
 | 1141 | User Activity for the Past 30 Days I | 🟢 Easy | `SELECT`, `WHERE`, `BETWEEN`, `IN`, `COUNT(DISTINCT)`, `GROUP BY` |
+| 1070 | Product Sales Analysis III | 🟠 Medium | `MIN()`, `Subquery`, `JOIN`, `GROUP BY` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
