@@ -3,7 +3,7 @@
 Daily/near-daily problem-solving practice across **SQL** and **Python** — building strong fundamentals one problem at a time, from basics up through applied concepts.
 
 ![SQL Progress](https://img.shields.io/badge/SQL-26%2F50-brightgreen)
-![Python Progress](https://img.shields.io/badge/Python-0%2F50-lightgrey)
+![Python Progress](https://img.shields.io/badge/Python-1%2F50-lightgrey)
 
 ---
 
