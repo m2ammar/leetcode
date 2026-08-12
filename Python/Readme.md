@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Python3-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-Programming%20Skills-orange)
-![Progress](https://img.shields.io/badge/Progress-1%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-2%2F50-brightgreen)
 
 ---
 
@@ -12,7 +12,10 @@
 
 ```text
 Python/
-└── 1768_Merge_Strings_Alternately/
+├── 1768_Merge_Strings_Alternately/
+│   ├── README.md
+│   └── solution.py
+└── 389-find-the-difference/
     ├── README.md
     └── solution.py
 ```
@@ -28,6 +31,7 @@ Each problem folder contains:
 | # | Problem | Difficulty | Concepts |
 |---:|---|:---:|---|
 | 1768 | Merge Strings Alternately | 🟢 Easy | `zip()`, string slicing, `str.join()` |
+| 389 | Find the Difference | 🟢 Easy | `collections.Counter`, `Hash Map`, `Dictionary Subtraction`, `iter()`, `next()` |
 
 > This table is updated as I solve more problems.
 
@@ -43,8 +47,13 @@ Rebuild strong Python fundamentals through LeetCode's Programming Skills study p
 
 **Covered so far:**
 - `zip()` for pairing sequences by position
-- String slicing (`string[start:]`)
+- String slicing `(string[start:])`
 - `str.join()` for building strings from lists
+- `collections.Counter` — counting occurrences across a whole iterable in one pass
+- Hash Map (via Counter's dict-based structure)
+- Dictionary subtraction `(Counter - Counter)`
+- `iter()` — converting a view/iterable into an iterator
+- `next()` — pulling the next item from an iterator
 
 **Up next:**
 - Basic loops/conditionals (Programming Skills, Day 1 onward)
