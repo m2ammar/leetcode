@@ -2,8 +2,8 @@
 
 Daily/near-daily problem-solving practice across **SQL** and **Python** — building strong fundamentals one problem at a time, from basics up through applied concepts.
 
-![SQL Progress](https://img.shields.io/badge/SQL-26%2F50-brightgreen)
-![Python Progress](https://img.shields.io/badge/Python-1%2F50-darkyelllow)
+![SQL Progress](https://img.shields.io/badge/SQL-27%2F50-brightgreen)
+![Python Progress](https://img.shields.io/badge/Python-2%2F50-darkyelllow)
 
 ---
 
@@ -18,7 +18,9 @@ leetcode/
 │   ├── 596_Classes_With_at_Least_5_Students/
 │   └── ... (all SQL problem folders)
 └── Python/
-    ├── README.md              ← Python progress, structure, topics covered
+    ├── README.md         ← Python progress, structure, topics covered
+    ├── 1768_Merge_Strings_Alternately/
+    ├── 389-find-the-difference/
     └── ... (Python problem folders, added as solved)
 ```
 
