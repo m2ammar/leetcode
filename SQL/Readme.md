@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-27%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-28%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -87,7 +87,10 @@ SQL/
 ├── 596_Classes_With_at_Least_5_Students
 |   ├── solution.sql
 |   └── README.md
-└── 1729-find-followers-count
+├── 1729-find-followers-count
+|   ├── solution.sql
+|   └── README.md
+└── 619-biggest-single-number
     ├── solution.sql
     └── README.md
 ```
@@ -125,6 +128,7 @@ Each problem folder contains:
 | 1070 | Product Sales Analysis III | 🟠 Medium | `MIN()`, `Subquery`, `JOIN`, `GROUP BY` |
 | 596 | Classes With at Least 5 Students | 🟢 Easy | `GROUP BY`, `HAVING`, `COUNT()`, `Aggregation` |
 | 1729 | Find Followers Count | 🟢 Easy | `SELECT`, `GROUP BY`, `COUNT`, `ORDER BY` |
+| 619 | Biggest Single Number | 🟢 Easy | `GROUP BY`, `HAVING`, `Aggregate Function (MAX)`, `Derived Table` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
@@ -151,6 +155,7 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 - Subqueries
   - Scalar Subqueries
   - Correlated Subqueries
+  - Derived Tables (subquery in FROM)
   
 - Modulo (`%`)
 - Weighted Averages
