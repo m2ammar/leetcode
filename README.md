@@ -3,7 +3,7 @@
 Daily/near-daily problem-solving practice across **SQL** and **Python** — building strong fundamentals one problem at a time, from basics up through applied concepts.
 
 ![SQL Progress](https://img.shields.io/badge/SQL-28%2F50-brightgreen)
-![Python Progress](https://img.shields.io/badge/Python-2%2F50-darkyelllow)
+![Python Progress](https://img.shields.io/badge/Python-3%2F50-darkyelllow)
 
 ---
 
@@ -21,6 +21,7 @@ leetcode/
     ├── README.md         ← Python progress, structure, topics covered
     ├── 1768_Merge_Strings_Alternately/
     ├── 389-find-the-difference/
+    ├── 28-find-the-index-of-the-first-occurrence-in-a-string/
     └── ... (Python problem folders, added as solved)
 ```
 
