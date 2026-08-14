@@ -1,6 +1,6 @@
 # 1045. Customers Who Bought All Products
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow) ![Topic](https://img.shields.io/badge/Topic-SQL-blue) ![Status](https://img.shields.io/badge/Status-Accepted-success)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Topic](https://img.shields.io/badge/Topic-SQL-blue) ![Status](https://img.shields.io/badge/Status-Accepted-success)
 
 **Concepts:** GROUP BY · HAVING · COUNT · DISTINCT · Scalar Subquery
 
