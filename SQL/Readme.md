@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-29%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-30%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -93,7 +93,10 @@ SQL/
 ├── 619-biggest-single-number
 |   ├── solution.sql
 |   └── README.md
-└── 1045-customers-who-bought-all-products
+├── 1045-customers-who-bought-all-products
+|   ├── solution.sql
+|   └── README.md
+└── 1731_The_Number_of_Employees_Which_Report_to_Each_Employee
     ├── solution.sql
     └── README.md
 ```
@@ -133,34 +136,40 @@ Each problem folder contains:
 | 1729 | Find Followers Count | 🟢 Easy | `SELECT`, `GROUP BY`, `COUNT`, `ORDER BY` |
 | 619 | Biggest Single Number | 🟢 Easy | `GROUP BY`, `HAVING`, `Aggregate Function (MAX)`, `Derived Table` |
 | 1045 | Customers Who Bought All Products | 🟠 Medium | `GROUP BY`, `HAVING`, `COUNT`, `DISTINCT`, `Scalar Subquery` |
+| 1731 | The Number of Employees Which Report to Each Employee | 🟢 Easy | Derived Table `(Subquery)`, `GROUP BY`, `JOIN`, Aggregate Functions `(COUNT, AVG)`, `ROUND` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
 
 Build strong SQL fundamentals by consistently solving problems covering filtering, joins, aggregation, subqueries, and advanced SQL concepts.
 
----
+--- 
+
 ## 🧠 Topics
 
 **Covered so far:**
 - `SELECT` & `WHERE`
+- `ORDER BY`
 - `AND` / `OR`
-- `NULL` Handling
+- `IN`
+- `BETWEEN`
+- `NULL` Handling (`IS NULL`, `IFNULL()`)
+- `LENGTH()`
 - `INNER JOIN` & `LEFT JOIN`
 - `CROSS JOIN`
 - Self-Joins
 - Multi-column `JOIN` conditions
-- Aggregate Functions (`COUNT`, `SUM`, `AVG`, `ROUND`, `DISTINCT`)
+- Table Aliases
+- Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `ROUND`, `DISTINCT`)
 - Conditional Aggregation (`SUM(CASE WHEN ...)`)
 - `CASE WHEN`
 - `GROUP BY`
-- Date Functions (`DATE_FORMAT()`, `DATEDIFF()`)
+- Date Functions (`DATE_FORMAT()`, `DATEDIFF()`, `DATE_ADD()`)
 - `HAVING`
 - Subqueries
   - Scalar Subqueries
   - Correlated Subqueries
   - Derived Tables (subquery in FROM)
-  
 - Modulo (`%`)
 - Weighted Averages
 
