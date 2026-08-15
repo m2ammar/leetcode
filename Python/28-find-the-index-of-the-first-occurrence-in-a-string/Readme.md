@@ -2,7 +2,7 @@
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Topic](https://img.shields.io/badge/Topic-String-blue) ![Status](https://img.shields.io/badge/Status-Accepted-success)
 
-**Concepts:** String Searching · Built-in Methods · Sliding Window (manual alternative)
+**Concepts:** String Searching · Nested Loops · Loop Bound Derivation · `break` · `for...else`
 
 ---
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 🧠 Solution
+## 🙃 First Attempt — `.find()`
 
 ```python
 class Solution:
@@ -22,20 +22,65 @@ class Solution:
         return haystack.find(needle)
 ```
 
+This passed instantly, but it wasn't actually satisfying — the whole point of the exercise is to build the string-matching logic, not call a built-in that does it invisibly. `.find()` solves the problem but hides the concept: the loop bounds, the character comparisons, the early-exit logic — none of that gets practiced if `.find()` does it all internally. So the real solve was redone from scratch, without any built-in search.
+
+---
+
+## 🧠 Real Solution — Manual Nested Loop
+
+```python
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        m = len(needle)
+        n = len(haystack) - len(needle)
+
+        for i in range(0, n + 1):
+            for j in range(m):
+                if needle[j] != haystack[j + i]:
+                    break
+            else:
+                return i
+        return -1
+```
+
+---
+
+## 🪜 How This Was Built, Step by Step
+
+**1. What's actually being searched for?**
+The first index `i` in `haystack` where lining `needle` up starting at `i` matches character-for-character all the way through.
+
+**2. Bounding the outer loop — which starting positions are even worth trying?**
+If `haystack` has length `n_total` and `needle` has length `m`, then starting the match too close to the end of `haystack` leaves no room for all of `needle` to fit. The last valid starting index is `n_total - m` — computed here as `n = len(haystack) - len(needle)`. Since `range()` stops *before* its upper bound, the loop needed `range(0, n + 1)` to actually include that last valid index — an easy off-by-one to miss.
+
+**3. Bounding the inner loop — walking through `needle` itself.**
+The inner loop just needs to touch every index of `needle`, from `0` to `m - 1`. That's simply `range(m)` — no `+1` here, since `range(m)` already produces `0` through `m - 1` directly.
+
+**4. The comparison — and why `i + j`, not just `j`.**
+Inside the inner loop, `needle[j]` is compared against `haystack[i + j]`. The `+ i` matters: `j` alone would only ever compare against the *start* of haystack repeatedly. Adding `i` shifts the comparison window to line up with wherever the outer loop currently is.
+
+**5. Bailing out early on a mismatch — `break`, not `continue` or `return -1`.**
+The moment one character fails to match, that particular `i` is already dead — no need to check the rest of `needle` against it. `continue` was ruled out because it would just skip to the next `j` value within the *same* `i`, not abandon the whole attempt. `return -1` was ruled out because a mismatch at one `i` doesn't mean no match exists at a later `i` — that would end the search too early. `break` is the right fit: it exits only the inner loop and lets the outer loop move on to try the next `i`.
+
+**6. Knowing when a match was actually complete — `for...else`.**
+After the inner loop ends, there's no immediate way to tell *why* it ended — did it `break` on a mismatch, or did it run all the way through cleanly? Python's `for...else` answers exactly that: the `else` block on a `for` loop only runs if the loop completed all its iterations without ever hitting `break`. So `else: return i` only fires when every character of `needle` matched — a genuine full match — and returns immediately, which is safe since `i` increases in order and the first full match found is the first occurrence.
+
+**7. If nothing is ever found — the final `return -1`.**
+If the outer loop finishes every `i` without the inner `else` ever firing, there's no match anywhere in `haystack`. That `return -1` sits outside both loops entirely, aligned with the outer `for i in range(...)`, so it only runs after every possibility has been exhausted.
+
 ---
 
 ## 🧩 Breakdown
 
 | Line | What it does |
 |---|---|
-| `haystack.find(needle)` | Searches `haystack` for the first occurrence of `needle` and returns its starting index. |
-| *(built-in behavior)* | If `needle` isn't found anywhere in `haystack`, `.find()` automatically returns `-1` — exactly matching what the problem asks for, with no extra logic needed. |
-
----
-
-## 🤔 Why `.find()`?
-
-`str.find()` is a built-in method that does precisely what the problem describes: locate the first index where a substring begins, or signal "not found" with `-1`. Since the problem's expected output format (index, or `-1`) matches `.find()`'s return contract exactly, there's no translation layer needed — no `if/else`, no manual searching.
+| `m = len(needle)` | Length of the pattern being searched for |
+| `n = len(haystack) - len(needle)` | Last valid starting index for the match |
+| `for i in range(0, n + 1)` | Tries every starting position in `haystack` where `needle` could still fully fit |
+| `for j in range(m)` | Walks through every character of `needle` for the current `i` |
+| `if needle[j] != haystack[j + i]: break` | Abandons this `i` immediately on the first mismatch |
+| `else: return i` | Runs only if no mismatch occurred — a full match, return its starting index |
+| `return -1` | Reached only if every `i` was tried and none produced a full match |
 
 ```
 haystack = "sadbutsad"
@@ -45,13 +90,10 @@ needle  =   "sad"
                     ^ second match at index 6 (not returned — we want the first)
 ```
 
-`.find()` scans left to right and stops at the very first match, which is exactly the "first occurrence" behavior required.
-
 ---
 
 ## ⚠️ Why not `in`?
 
-A tempting first instinct is:
 ```python
 if needle in haystack:
     return 0
@@ -62,75 +104,79 @@ This is wrong because `in` only answers a yes/no question ("does needle exist so
 
 ---
 
-## 🚧 Common Mistakes
+## 🚧 Common Mistakes (from the actual attempts)
 
-**Mistake 1 — using `in` and assuming the match is always at index 0**
+**Mistake 1 — comparing `haystack[j]` instead of `haystack[i + j]`**
 ```python
-# Wrong: returns 0 whenever needle exists anywhere, regardless of actual position
-if needle in haystack:
-    return 0
+# Wrong: never shifts the comparison window, so it only ever checks
+# the start of haystack regardless of which i is being tried
+needle[j] == haystack[j]
 ```
-✅ Fix: use `.find()`, which returns the real starting index, not just presence/absence.
+✅ Fix: index into haystack with `i + j`, so the comparison window slides along with the outer loop.
 
-**Mistake 2 — hardcoding the needle's length as a bound**
+**Mistake 2 — off-by-one on the outer loop's upper bound**
 ```python
-# Wrong: assumes needle is always length 3
-for i in range(len(haystack) - 3):
+# Wrong: skips the last valid starting index
+for i in range(0, n):
 ```
-✅ Fix: the valid range of starting positions depends on `len(needle)`, not a fixed number — it should be `range(len(haystack) - len(needle) + 1)`.
+✅ Fix: use `range(0, n + 1)` so the last valid index (where `needle` just barely fits) is included.
 
-**Mistake 3 — off-by-one in the manual loop's upper bound**
+**Mistake 3 — returning inside the inner loop unconditionally**
 ```python
-# Wrong: misses the last valid starting position
-for i in range(len(haystack) - len(needle)):
+# Wrong: exits the whole function on the very first character checked,
+# before confirming the rest of needle actually matches
+for j in range(m):
+    needle[j] == haystack[j]
+    return k
 ```
-✅ Fix: use `+ 1` in the range so the last valid index (where the remaining haystack is exactly `len(needle)` long) is included.
+✅ Fix: only return once the *entire* inner loop has confirmed a match — that's what `for...else` is for.
 
----
-
-## 🔍 Manual Alternative (Sliding Window)
-
-Since interviews often ask for `strStr()` to be implemented without built-ins, here's the underlying logic `.find()` performs internally:
-
+**Mistake 4 — using `.find()` when the goal is to learn the underlying logic**
 ```python
-class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
-        n, m = len(haystack), len(needle)
-        for i in range(n - m + 1):
-            if haystack[i:i+m] == needle:
-                return i
-        return -1
+# Passes, but skips the actual concept being practiced
+return haystack.find(needle)
 ```
-
-| Piece | Purpose |
-|---|---|
-| `range(n - m + 1)` | Only checks starting positions where enough characters remain in `haystack` for `needle` to fully fit. |
-| `haystack[i:i+m]` | Slices out a chunk of `haystack` the same length as `needle`, starting at position `i`. |
-| `== needle` | Direct string comparison — order and content must match exactly. |
-| `return i` | Returns immediately on the first match, guaranteeing it's the *first* occurrence. |
-| `return -1` | Reached only if the loop finishes with no match found. |
+✅ Fix: rebuild it manually with nested loops, so the bounds, comparisons, and early-exit logic are all understood firsthand.
 
 ---
 
 ## ⏱️ Time Complexity
 
+- **Manual nested loop:** `O((n - m) * m)` worst case — for each of the `n - m + 1` starting positions, up to `m` character comparisons.
 - **Built-in `.find()`:** effectively `O(n)` on average in CPython (uses an optimized substring search algorithm under the hood).
-- **Manual sliding window:** `O((n - m) * m)` worst case — for each of the `n - m + 1` starting positions, comparing up to `m` characters via slicing.
 
 ---
 
 ## 🔑 Key Learnings
 
-- `str.find()` returns an **index** (or `-1`), while `in` only returns a **boolean** — they answer different questions and aren't interchangeable when position matters.
-- Loop bounds for substring search must be derived from `len(needle)`, not hardcoded — the valid range of starting positions is `range(len(haystack) - len(needle) + 1)`.
-- Built-ins are the right choice in production code; manual implementation is a distinct skill worth practicing separately for interviews.
+- Loop bounds for substring search must be derived from both string lengths, not guessed — the outer loop's last valid index is `len(haystack) - len(needle)`, and `range()`'s exclusive upper bound means that value needs a `+1` to actually be included.
+- `break` exits only the loop it's directly inside — useful for abandoning one starting position without derailing the whole search.
+- `for...else` is the clean way to detect "did this loop complete without interruption" — exactly what's needed to confirm a full, uninterrupted character match.
+- Solving with a built-in first can confirm the expected behavior, but re-deriving the manual version is where the actual concept — bounds, comparisons, early exits — gets learned.
 
 ---
 
-## 🏁 Final Query
+## 🏁 Final Solutions
 
+**Built-in version:**
 ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         return haystack.find(needle)
+```
+
+**Manual version (the one that was actually understood):**
+```python
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        m = len(needle)
+        n = len(haystack) - len(needle)
+
+        for i in range(0, n + 1):
+            for j in range(m):
+                if needle[j] != haystack[j + i]:
+                    break
+            else:
+                return i
+        return -1
 ```
