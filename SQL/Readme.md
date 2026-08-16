@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-30%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-31%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -96,7 +96,10 @@ SQL/
 ├── 1045-customers-who-bought-all-products
 |   ├── solution.sql
 |   └── README.md
-└── 1731_The_Number_of_Employees_Which_Report_to_Each_Employee
+├── 1731_The_Number_of_Employees_Which_Report_to_Each_Employee
+|   ├── solution.sql
+|   └── README.md
+└── 1789-primary-department-for-each-employee
     ├── solution.sql
     └── README.md
 ```
@@ -137,6 +140,7 @@ Each problem folder contains:
 | 619 | Biggest Single Number | 🟢 Easy | `GROUP BY`, `HAVING`, `Aggregate Function (MAX)`, `Derived Table` |
 | 1045 | Customers Who Bought All Products | 🟠 Medium | `GROUP BY`, `HAVING`, `COUNT`, `DISTINCT`, `Scalar Subquery` |
 | 1731 | The Number of Employees Which Report to Each Employee | 🟢 Easy | Derived Table `(Subquery)`, `GROUP BY`, `JOIN`, Aggregate Functions `(COUNT, AVG)`, `ROUND` |
+| 1789 | Primary Department for Each Employee | 🟢 Easy | Window Function `(COUNT() OVER PARTITION BY)`, Derived Table, `WHERE` with `OR` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
@@ -172,7 +176,7 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
   - Derived Tables (subquery in FROM)
 - Modulo (`%`)
 - Weighted Averages
+- Window Functions (`OVER`, `PARTITION BY`)
 
 **Up next:**
 - CTEs
-- Window Functions
