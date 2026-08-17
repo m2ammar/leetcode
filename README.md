@@ -4,7 +4,7 @@ Daily/near-daily problem-solving practice across **SQL**, **Python**, and **Java
 
 ![SQL Progress](https://img.shields.io/badge/SQL-32%2F50-brightgreen)
 ![Python Progress](https://img.shields.io/badge/Python-3%2F50-darkyelllow)
-![Java Progress](https://img.shields.io/badge/Java-1%2F%3F-red)
+![Java Progress](https://img.shields.io/badge/Java-2%2F%3F-red)
 
 ---
 
@@ -26,7 +26,9 @@ leetcode/
 │   └── ... (Python problem folders, added as solved)
 └── Java/
     ├── README.md         ← Java progress, structure, topics covered
-    └── 167-two-sum-ii-input-array-is-sorted/
+    ├──167-two-sum-ii-input-array-is-sorted/
+    └──704-binary-search/
+
 ```
 
 Each problem folder — in any language — contains:
