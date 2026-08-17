@@ -3,15 +3,18 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-1%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-2%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
 ```text
 Java/
-└── 167-two-sum-ii-input-array-is-sorted/
-    ├── README.md
-    └── Solution.java
+├── 167-two-sum-ii-input-array-is-sorted/
+|   ├── solution.java
+|   └── README.md
+└── 704-binary-search/
+    ├── solution.java
+    └── README.md
 ```
 Each problem folder contains:
 - 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
@@ -22,6 +25,7 @@ Each problem folder contains:
 | # | Problem | Difficulty | Concepts |
 |---:|---|:---:|---|
 | 167 | Two Sum II - Input Array Is Sorted | 🟠 Medium | Two Pointers, Sorted Array, Constant Space |
+| 704 | Binary Search | 🟢 Easy | Binary Search, Divide and Conquer, Two Pointers (`left`/`right`), Integer Overflow-Safe Midpoint |
 > This table is updated as I solve more problems.
 
 ---
@@ -34,8 +38,8 @@ Build strong data structures and algorithms fundamentals in Java, applying conce
 
 **Covered so far:**
 - Two Pointers (left/right narrowing on a sorted array)
+- Binary Search
 
 **Up next:**
-- Binary Search
 - Sliding Window
 - More Two Pointers variants (3Sum, Container With Most Water)
