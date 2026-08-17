@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-31%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-32%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -99,7 +99,10 @@ SQL/
 ├── 1731_The_Number_of_Employees_Which_Report_to_Each_Employee
 |   ├── solution.sql
 |   └── README.md
-└── 1789-primary-department-for-each-employee
+├── 1789-primary-department-for-each-employee
+|   ├── solution.sql
+|   └── README.md
+└── 610-triangle-judgement
     ├── solution.sql
     └── README.md
 ```
@@ -141,6 +144,7 @@ Each problem folder contains:
 | 1045 | Customers Who Bought All Products | 🟠 Medium | `GROUP BY`, `HAVING`, `COUNT`, `DISTINCT`, `Scalar Subquery` |
 | 1731 | The Number of Employees Which Report to Each Employee | 🟢 Easy | Derived Table `(Subquery)`, `GROUP BY`, `JOIN`, Aggregate Functions `(COUNT, AVG)`, `ROUND` |
 | 1789 | Primary Department for Each Employee | 🟢 Easy | Window Function `(COUNT() OVER PARTITION BY)`, Derived Table, `WHERE` with `OR` |
+| 610 | Triangle Judgement | 🟢 Easy | `CASE WHEN`, `Conditional Expressions`, `Comparison Operators` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
