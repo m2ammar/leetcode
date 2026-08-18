@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-32%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-33%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -15,7 +15,7 @@ SQL/
 ├── 570_Managers_with_at_Least_5_Direct_Reports/
 │   ├── README.md
 │   └── solution.sql
-├── 1075-project-employees-i
+├── 1075-project-employees-i/
 |   |── README.md
 |   └── solution.sql
 ├── 577_Employee_Bonus/
@@ -66,43 +66,46 @@ SQL/
 ├── 1211-Queries-Quality-and-Percentage/
 |   ├── solution.sql
 |   └── README.md
-├── 1193_Monthly_Transactions_I
+├── 1193_Monthly_Transactions_I/
 |   ├── solution.sql
 |   └── README.md
-├── 1174-Immediate-Food-Delivery-II
+├── 1174-Immediate-Food-Delivery-II/
 |   ├── solution.sql
 |   └── README.md
-├── 550_Game_Play_Analysis_IV
+├── 550_Game_Play_Analysis_IV/
 |   ├── solution.sql
 |   └── README.md
-├── 2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher
+├── 2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher/
 |   ├── solution.sql
 |   └── README.md
-├── 1141_User_Activity_for_the_Past_30_Days_I
+├── 1141_User_Activity_for_the_Past_30_Days_I/
 |   ├── solution.sql
 |   └── README.md
-├── 1070_Product_Sales_Analysis_III
+├── 1070_Product_Sales_Analysis_III/
 |   ├── solution.sql
 |   └── README.md
-├── 596_Classes_With_at_Least_5_Students
+├── 596_Classes_With_at_Least_5_Students/
 |   ├── solution.sql
 |   └── README.md
-├── 1729-find-followers-count
+├── 1729-find-followers-count/
 |   ├── solution.sql
 |   └── README.md
-├── 619-biggest-single-number
+├── 619-biggest-single-number/
 |   ├── solution.sql
 |   └── README.md
-├── 1045-customers-who-bought-all-products
+├── 1045-customers-who-bought-all-products/
 |   ├── solution.sql
 |   └── README.md
-├── 1731_The_Number_of_Employees_Which_Report_to_Each_Employee
+├── 1731_The_Number_of_Employees_Which_Report_to_Each_Employee/
 |   ├── solution.sql
 |   └── README.md
-├── 1789-primary-department-for-each-employee
+├── 1789-primary-department-for-each-employee/
 |   ├── solution.sql
 |   └── README.md
-└── 610-triangle-judgement
+├── 610-triangle-judgement/
+|   ├── solution.sql
+|   └── README.md
+└── 180_Consecutive_Numbers/
     ├── solution.sql
     └── README.md
 ```
@@ -145,6 +148,7 @@ Each problem folder contains:
 | 1731 | The Number of Employees Which Report to Each Employee | 🟢 Easy | Derived Table `(Subquery)`, `GROUP BY`, `JOIN`, Aggregate Functions `(COUNT, AVG)`, `ROUND` |
 | 1789 | Primary Department for Each Employee | 🟢 Easy | Window Function `(COUNT() OVER PARTITION BY)`, Derived Table, `WHERE` with `OR` |
 | 610 | Triangle Judgement | 🟢 Easy | `CASE WHEN`, `Conditional Expressions`, `Comparison Operators` |
+| 180 | Consecutive Numbers | 🟠 Medium |  `CTE`, `Window Functions`, `LAG`, `LEAD`, `DISTINCT` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
@@ -180,7 +184,9 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
   - Derived Tables (subquery in FROM)
 - Modulo (`%`)
 - Weighted Averages
-- Window Functions (`OVER`, `PARTITION BY`)
+- Window Functions (`OVER`, `PARTITION BY`, `LAG()`, `LEAD()`)
+- CTEs (`WITH ... AS`)
 
+ 
 **Up next:**
-- CTEs
+- (no new concept immediately — next problems reinforce subqueries/window functions until the Advanced String Functions / Regex section)
