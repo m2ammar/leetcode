@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Python3-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-Programming%20Skills-orange)
-![Progress](https://img.shields.io/badge/Progress-3%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-4%2F50-brightgreen)
 
 ---
 
@@ -18,7 +18,10 @@ Python/
 ├── 389-find-the-difference/
 │   ├── README.md
 │   └── solution.py
-└── 28-find-the-index-of-the-first-occurrence-in-a-string/
+├── 28-find-the-index-of-the-first-occurrence-in-a-string/
+│   ├── README.md
+│   └── solution.py
+└── 242_Valid_Anagram/
     ├── README.md
     └── solution.py
 ```
@@ -36,6 +39,7 @@ Each problem folder contains:
 | 1768 | Merge Strings Alternately | 🟢 Easy | `zip()`, string slicing, `str.join()` |
 | 389 | Find the Difference | 🟢 Easy | `collections.Counter`, `Hash Map`, `Dictionary Subtraction`, `iter()`, `next()` |
 | 28 | Find the Index of the First Occurrence in a String | 🟢 Easy | `String Searching`, `Built-in Methods`, Sliding Window `(manual alternative)` |
+| 242 | Valid Anagram | 🟢 Easy | `Hash Map`, `collections.Counter`,  String |
 
 > This table is updated as I solve more problems.
 
