@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-33%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-34%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -105,7 +105,10 @@ SQL/
 ├── 610-triangle-judgement/
 |   ├── solution.sql
 |   └── README.md
-└── 180_Consecutive_Numbers/
+├── 180_Consecutive_Numbers/
+|   ├── solution.sql
+|   └── README.md
+└── 1164-Product-Price-at-a-Given-Date/
     ├── solution.sql
     └── README.md
 ```
@@ -149,6 +152,7 @@ Each problem folder contains:
 | 1789 | Primary Department for Each Employee | 🟢 Easy | Window Function `(COUNT() OVER PARTITION BY)`, Derived Table, `WHERE` with `OR` |
 | 610 | Triangle Judgement | 🟢 Easy | `CASE WHEN`, `Conditional Expressions`, `Comparison Operators` |
 | 180 | Consecutive Numbers | 🟠 Medium |  `CTE`, `Window Functions`, `LAG`, `LEAD`, `DISTINCT` |
+| 1164 | Product Price at a Given Date/ | 🟠 Medium |  `CTE`, Window Functions `(ROW_NUMBER)`, `LEFT JOIN`, `CASE`, `DISTINCT` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
