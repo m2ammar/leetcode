@@ -152,7 +152,7 @@ Each problem folder contains:
 | 1789 | Primary Department for Each Employee | 🟢 Easy | Window Function `(COUNT() OVER PARTITION BY)`, Derived Table, `WHERE` with `OR` |
 | 610 | Triangle Judgement | 🟢 Easy | `CASE WHEN`, `Conditional Expressions`, `Comparison Operators` |
 | 180 | Consecutive Numbers | 🟠 Medium |  `CTE`, `Window Functions`, `LAG`, `LEAD`, `DISTINCT` |
-| 1164 | Product Price at a Given Date/ | 🟠 Medium |  `CTE`, Window Functions `(ROW_NUMBER)`, `LEFT JOIN`, `CASE`, `DISTINCT` |
+| 1164 | Product Price at a Given Date | 🟠 Medium |  `CTE`, Window Functions `(ROW_NUMBER)`, `LEFT JOIN`, `CASE`, `DISTINCT` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
