@@ -1,6 +1,6 @@
 # 1164. Product Price at a Given Date
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange)
 ![Topic](https://img.shields.io/badge/Topic-SQL-blue)
 ![Status](https://img.shields.io/badge/Status-Accepted-success)
 
