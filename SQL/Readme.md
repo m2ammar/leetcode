@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-34%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-35%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -108,7 +108,10 @@ SQL/
 ├── 180_Consecutive_Numbers/
 |   ├── solution.sql
 |   └── README.md
-└── 1164-Product-Price-at-a-Given-Date/
+├── 1164-Product-Price-at-a-Given-Date/
+|   ├── solution.sql
+|   └── README.md
+└── 1204-last-person-to-fit-in-the-bus/
     ├── solution.sql
     └── README.md
 ```
@@ -153,6 +156,7 @@ Each problem folder contains:
 | 610 | Triangle Judgement | 🟢 Easy | `CASE WHEN`, `Conditional Expressions`, `Comparison Operators` |
 | 180 | Consecutive Numbers | 🟠 Medium |  `CTE`, `Window Functions`, `LAG`, `LEAD`, `DISTINCT` |
 | 1164 | Product Price at a Given Date | 🟠 Medium |  `CTE`, Window Functions `(ROW_NUMBER)`, `LEFT JOIN`, `CASE`, `DISTINCT` |
+| 1204 | Last Person to Fit in the Bus | 🟠 Medium |  `CTE`, Window Function, `SUM() OVER`, `ORDER BY`, `LIMIT` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
