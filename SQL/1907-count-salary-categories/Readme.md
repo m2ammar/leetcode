@@ -40,12 +40,15 @@ ORDER BY accounts_count DESC;
 
 ## 🤔 Why UNION ALL?
 The output needs a fixed set of 3 rows that always exist, independent of whether matching data exists in `Accounts`. Each `SELECT` block is self-contained — one literal label, one count — so a category with zero matches still produces a row (with `accounts_count = 0`), because the row was authored directly rather than derived from grouped data.
-Category rows (authored) Accounts table (queried per row)
-┌────────────────┐ ┌────────────┬────────┐
-│ Low Salary │──counts──▶│ account_id │ income │
-│ Average Salary │──counts──▶│ ... │ ... │
-│ High Salary │──counts──▶│ │ │
-└────────────────┘ └────────────┴────────┘
+
+```
+Category rows (authored)      Accounts table (queried per row)
+┌────────────────┐            ┌────────────┬────────┐
+│ Low Salary      │──counts──▶│ account_id │ income │
+│ Average Salary  │──counts──▶│    ...     │  ...   │
+│ High Salary     │──counts──▶│            │        │
+└────────────────┘            └────────────┴────────┘
+```
 
 
 Sample result:
