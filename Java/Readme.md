@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-2%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-3%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -12,7 +12,10 @@ Java/
 ├── 167-two-sum-ii-input-array-is-sorted/
 |   ├── solution.java
 |   └── README.md
-└── 704-binary-search/
+├── 704-binary-search/
+|   ├── solution.java
+|   └── README.md
+└── 34-find-first-and-last-position/
     ├── solution.java
     └── README.md
 ```
@@ -26,6 +29,7 @@ Each problem folder contains:
 |---:|---|:---:|---|
 | 167 | Two Sum II - Input Array Is Sorted | 🟠 Medium | Two Pointers, Sorted Array, Constant Space |
 | 704 | Binary Search | 🟢 Easy | Binary Search, Divide and Conquer, Two Pointers (`left`/`right`), Integer Overflow-Safe Midpoint |
+| 34 | Find First and Last Position | 🟠 Medium | Binary Search, Biased Boundary Search, Two Independent Searches, Edge Case Handling |
 > This table is updated as I solve more problems.
 
 ---
