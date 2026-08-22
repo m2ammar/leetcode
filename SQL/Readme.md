@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-36%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-37%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -114,7 +114,10 @@ SQL/
 ├── 1204-last-person-to-fit-in-the-bus/
 |   ├── solution.sql
 |   └── README.md
-└── 1907-count-salary-categories/
+├── 1907-count-salary-categories/
+|   ├── solution.sql
+|   └── README.md
+└── 1978-Employees-Whose-Manager-Left-the-Company/
     ├── solution.sql
     └── README.md
 ```
@@ -161,6 +164,7 @@ Each problem folder contains:
 | 1164 | Product Price at a Given Date | 🟠 Medium |  `CTE`, Window Functions `(ROW_NUMBER)`, `LEFT JOIN`, `CASE`, `DISTINCT` |
 | 1204 | Last Person to Fit in the Bus | 🟠 Medium |  `CTE`, Window Function, `SUM() OVER`, `ORDER BY`, `LIMIT` |
 | 1907 | Count Salary Categories | 🟠 Medium |   `UNION ALL`, `Subquery`, `COUNT()`, `Literal Columns`, `WHERE` |
+| 1978 | Employees Whose Manager Left the Company | 🟢 Easy | `WHERE`, `IS NOT NULL`, `NOT EXISTS`, Correlated Subquery, `ORDER BY` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
