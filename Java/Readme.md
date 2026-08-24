@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-4%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-5%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -18,7 +18,10 @@ Java/
 ├── 34-find-first-and-last-position/
 |   ├── solution.java
 |   └── README.md
-└── 75-sort-colors/
+├── 75-sort-colors/
+|   ├── solution.java
+|   └── README.md
+└── 1051-height-checker/
     ├── solution.java
     └── README.md
 ```
@@ -34,6 +37,7 @@ Each problem folder contains:
 | 704 | Binary Search | 🟢 Easy | Binary Search, Divide and Conquer, Two Pointers (`left`/`right`), Integer Overflow-Safe Midpoint |
 | 34 | Find First and Last Position | 🟠 Medium | Binary Search, Biased Boundary Search, Two Independent Searches, Edge Case Handling |
 | 75 | Sort Colors | 🟠 Medium | Nested Loops, Bubble Sort, In-Place Swap, Array |
+| 1051 | Height Checker | 🟢 Easy | Selection Sort, Array Copy, Index Comparison |
 > This table is updated as I solve more problems.
 
 ---
@@ -51,3 +55,6 @@ Build strong data structures and algorithms fundamentals in Java, applying conce
 **Up next:**
 - Sliding Window
 - More Two Pointers variants (3Sum, Container With Most Water)
+- Bubble Sort
+- Selection Sort
+
