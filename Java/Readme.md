@@ -51,10 +51,11 @@ Build strong data structures and algorithms fundamentals in Java, applying conce
 **Covered so far:**
 - Two Pointers (left/right narrowing on a sorted array)
 - Binary Search
+- Bubble Sort
+- Selection Sort
 
 **Up next:**
 - Sliding Window
 - More Two Pointers variants (3Sum, Container With Most Water)
-- Bubble Sort
-- Selection Sort
+
 
