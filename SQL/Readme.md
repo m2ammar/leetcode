@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-39%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-40%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -123,7 +123,10 @@ SQL/
 ├── 626-exchange-seats/
 |   ├── solution.sql
 |   └── README.md
-└── 1341-movie-rating/
+├── 1341-movie-rating/
+|   ├── solution.sql
+|   └── README.md
+└── 1321-restaurant-growth/
     ├── solution.sql
     └── README.md
 ```
@@ -173,6 +176,7 @@ Each problem folder contains:
 | 1978 | Employees Whose Manager Left the Company | 🟢 Easy | `WHERE`, `IS NOT NULL`, `NOT EXISTS`, Correlated Subquery, `ORDER BY` |
 | 626 | Exchange Seats | 🟠 Medium | `CASE Expression`, `MOD()`, `Scalar Subquery`, `ORDER BY` |
 | 1341 | Movie Rating | 🟠 Medium | `JOIN`, `GROUP BY`, `COUNT`, `AVG`, `ORDER BY (multi-key)`, `LIMIT`, `UNION ALL`, `BETWEEN` |
+| 1321 | Restaurant Growth | 🟠 Medium | `Derived Table`, `GROUP BY`, `CTE`, Window Functions `(SUM/AVG OVER)`, `ROW_NUMBER()`, `Moving Average` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
@@ -208,7 +212,7 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
   - Derived Tables (subquery in FROM)
 - Modulo (`%`)
 - Weighted Averages
-- Window Functions (`OVER`, `PARTITION BY`, `LAG()`, `LEAD()`)
+- Window Functions (`OVER`, `PARTITION BY`, `LAG()`, `LEAD()`, `ROW_NUMBER()`, `SUM/AVG OVER`, `ROWS BETWEEN`)
 - CTEs (`WITH ... AS`)
 
  
