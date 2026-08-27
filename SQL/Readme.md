@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-41%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-42%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -129,9 +129,14 @@ SQL/
 ├── 1321-restaurant-growth/
 |   ├── solution.sql
 |   └── README.md
-└── 602-friend-requests-ii/
+├── 602-friend-requests-ii/
+|   ├── solution.sql
+|   └── README.md
+└── 585-investments-in-2016/
     ├── solution.sql
     └── README.md
+
+
 ```
 Each problem folder contains:
 - 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
@@ -181,6 +186,7 @@ Each problem folder contains:
 | 1341 | Movie Rating | 🟠 Medium | `JOIN`, `GROUP BY`, `COUNT`, `AVG`, `ORDER BY (multi-key)`, `LIMIT`, `UNION ALL`, `BETWEEN` |
 | 1321 | Restaurant Growth | 🟠 Medium | `Derived Table`, `GROUP BY`, `CTE`, Window Functions `(SUM/AVG OVER)`, `ROW_NUMBER()`, `Moving Average` |
 | 602 | Friend Requests II | 🟠 Medium |  `UNION ALL`, `Subquery`, `GROUP BY`, Window Function `(RANK)`, `ORDER BY` |
+| 585 | Investments in 2016 | 🟠 Medium |  `CTE`, `Window Functions`, `PARTITION BY`, `COUNT() OVER`, `ROUND` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
