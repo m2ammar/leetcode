@@ -4,7 +4,7 @@ Daily/near-daily problem-solving practice across **SQL**, **Python**, and **Java
 
 ![SQL Progress](https://img.shields.io/badge/SQL-43%2F50-brightgreen)
 ![Python Progress](https://img.shields.io/badge/Python-4%2F50-darkyelllow)
-![Java Progress](https://img.shields.io/badge/Java-6%2F%3F-red)
+![Java Progress](https://img.shields.io/badge/Java-7%2F%3F-red)
 
 ---
 
