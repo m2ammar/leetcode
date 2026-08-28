@@ -50,13 +50,12 @@ WHERE emp <= 3;
 ## 🤔 Why DENSE_RANK() + PARTITION BY?
 Employee and Department are related through `Employee.departmentId → Department.id`. Each department can have many employees, so ranking needs to happen *within* each department separately, not across the whole table.
 
-
+```text
 Department (1)───< Employee (many)
-id departmentId
-
+     id                departmentId
+```
 
 `PARTITION BY departmentId` tells the window function "restart the ranking every time the department changes." `DENSE_RANK()` is the right ranking function here (over `ROW_NUMBER()` or plain `RANK()`) because it handles **unique salaries** correctly — ties share the same rank, and the next distinct salary continues at rank+1 with no gap.
-
 Sample intermediate result (before filtering):
 
 | Department | Employee | Salary | emp |
