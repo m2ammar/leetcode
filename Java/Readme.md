@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-6%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-7%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -24,6 +24,9 @@ Java/
 ├── 1051-height-checker/
 |   ├── solution.java
 |   └── README.md
+├── 88-merge-sorted-array/
+|   ├── solution.java
+|   └── README.md
 └── 912-sort-an-array/
     ├── solution.java
     └── README.md
@@ -42,6 +45,7 @@ Each problem folder contains:
 | 75 | Sort Colors | 🟠 Medium | Nested Loops, Bubble Sort, In-Place Swap, Array |
 | 1051 | Height Checker | 🟢 Easy | Selection Sort, Array Copy, Index Comparison |
 | 912 | Sort an Array | 🟠 Medium | Quicksort, Recursion, Lomuto Partition Scheme, Randomized Pivot Selection |
+| 88 | Merge Sorted Array | 🟢 Easy | Two Pointers, In-Place Merge, Backward Traversal |
 > This table is updated as I solve more problems.
 
 ---
