@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-42%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-43%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -132,6 +132,9 @@ SQL/
 ├── 602-friend-requests-ii/
 |   ├── solution.sql
 |   └── README.md
+├── 185-department-top-three-salaries/
+|   ├── solution.sql
+|   └── README.md
 └── 585-investments-in-2016/
     ├── solution.sql
     └── README.md
@@ -187,6 +190,7 @@ Each problem folder contains:
 | 1321 | Restaurant Growth | 🟠 Medium | `Derived Table`, `GROUP BY`, `CTE`, Window Functions `(SUM/AVG OVER)`, `ROW_NUMBER()`, `Moving Average` |
 | 602 | Friend Requests II | 🟠 Medium |  `UNION ALL`, `Subquery`, `GROUP BY`, Window Function `(RANK)`, `ORDER BY` |
 | 585 | Investments in 2016 | 🟠 Medium |  `CTE`, `Window Functions`, `PARTITION BY`, `COUNT() OVER`, `ROUND` |
+| 185 | Department Top Three Salaries | 🔴 Hard | `CTE`, Window Function `(DENSE_RANK() OVER PARTITION BY)`, `JOIN` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
@@ -222,7 +226,7 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
   - Derived Tables (subquery in FROM)
 - Modulo (`%`)
 - Weighted Averages
-- Window Functions (`OVER`, `PARTITION BY`, `LAG()`, `LEAD()`, `ROW_NUMBER()`, `SUM/AVG OVER`, `ROWS BETWEEN`)
+- Window Functions (`OVER`, `PARTITION BY`, `LAG()`, `LEAD()`, `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `SUM/AVG OVER`, `ROWS BETWEEN`)
 - CTEs (`WITH ... AS`)
 
  
