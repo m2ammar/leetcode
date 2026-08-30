@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-44%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-45%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -138,7 +138,10 @@ SQL/
 ├── 585-investments-in-2016/
 |   ├── solution.sql
 |   └── README.md
-└── 1667-fix-names/
+├── 1667-fix-names/
+|   ├── solution.sql
+|   └── README.md
+└── 1527-patients-with-a-condition/
     ├── solution.sql
     └── README.md
 
@@ -195,6 +198,7 @@ Each problem folder contains:
 | 585 | Investments in 2016 | 🟠 Medium |  `CTE`, `Window Functions`, `PARTITION BY`, `COUNT() OVER`, `ROUND` |
 | 185 | Department Top Three Salaries | 🔴 Hard | `CTE`, Window Function `(DENSE_RANK() OVER PARTITION BY)`, `JOIN` |
 | 1667 | Fix Names | 🟢 Easy | `SUBSTRING`, `UPPER`, `LOWER`, `CONCAT`, `ORDER BY` |
+| 1527 | Patients with a Condition | 🟢 Easy | `SELECT`, `WHERE`, `LIKE`, `OR`, `Wildcards` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
