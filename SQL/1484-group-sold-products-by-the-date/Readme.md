@@ -31,14 +31,18 @@ ORDER BY sell_date;
 
 ## 🤔 Why GROUP_CONCAT?
 `Activities` has multiple rows per `sell_date` (one row per product sold that day). `GROUP_CONCAT` is the only aggregate function that turns multiple row values within a group into a single delimited string — exactly what `products` needs.
-sell_date product
 
-2020-05-30 Headphone
-2020-05-30 Basketball
-2020-05-30 T-Shirt
-↓ GROUP BY sell_date + GROUP_CONCAT
+```
+sell_date     product
+----------    ----------
+2020-05-30    Headphone
+2020-05-30    Basketball
+2020-05-30    T-Shirt
+
+        ↓  GROUP BY sell_date + GROUP_CONCAT
+
 2020-05-30 → "Basketball,Headphone,T-Shirt"
-
+```
 
 ## ⚠️ Why not just DISTINCT product without GROUP_CONCAT's own DISTINCT?
 `COUNT(DISTINCT product)` and `GROUP_CONCAT(DISTINCT product ...)` are two independent function calls — `DISTINCT` isn't inherited between them. Omitting it from `GROUP_CONCAT` while keeping it in `COUNT` would produce a mismatch: `num_sold` counts unique products correctly, but `products` would list duplicates (e.g. `Mask,Mask`) for repeated sales on the same date.
