@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-MySQL-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-SQL%2050-orange)
-![Progress](https://img.shields.io/badge/Progress-49%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-50%2F50-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -153,7 +153,10 @@ SQL/
 ├── 1484-group-sold-products-by-the-date/
 |   ├── solution.sql
 |   └── README.md
-└── 1327-list-the-products-ordered-in-a-period/
+├── 1327-list-the-products-ordered-in-a-period/
+|   ├── solution.sql
+|   └── README.md
+└── 1517-find-users-with-valid-e-mails/
     ├── solution.sql
     └── README.md
 
@@ -215,6 +218,7 @@ Each problem folder contains:
 | 176 | Second Highest Salary | 🟠 Medium | `Subquery`, `MAX() Aggregate Function`, `WHERE Clause`, `NULL Handling` |
 | 1484 | Group Sold Products by the Date | 🟢 Easy | `GROUP BY`, `GROUP_CONCAT`, `DISTINCT`, `ORDER BY` |
 | 1327 | List the Products Ordered in a Period | 🟢 Easy | `JOIN`, `WHERE`, `GROUP BY`, `HAVING`, `SUM()`, `MONTH()`, `YEAR()` |
+| 1517 | Find Users with Valid E-mails | 🟢 Easy | `REGEXP`, `Character Classes`, `Anchors`, `COLLATE`, `Case Sensitivity` |
 > This table is updated as I solve more problems.
 ---
 ## 🎯 Goal
