@@ -231,32 +231,36 @@ Build strong SQL fundamentals by consistently solving problems covering filterin
 
 **Covered so far:**
 - `SELECT` & `WHERE`
-- `ORDER BY`
+- `ORDER BY` (single and multi-column)
 - `AND` / `OR`
 - `IN`
 - `BETWEEN`
-- `NULL` Handling (`IS NULL`, `IFNULL()`)
+- `LIKE` & Wildcards
+- `NULL` Handling (`IS NULL`, `IS NOT NULL`, `IFNULL()`)
 - `LENGTH()`
 - `INNER JOIN` & `LEFT JOIN`
 - `CROSS JOIN`
 - Self-Joins
 - Multi-column `JOIN` conditions
 - Table Aliases
-- Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `ROUND`, `DISTINCT`)
+- Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `ROUND`, `DISTINCT`, `COUNT(DISTINCT)`)
 - Conditional Aggregation (`SUM(CASE WHEN ...)`)
-- `CASE WHEN`
+- `CASE WHEN` / Conditional Expressions
 - `GROUP BY`
-- Date Functions (`DATE_FORMAT()`, `DATEDIFF()`, `DATE_ADD()`)
 - `HAVING`
+- Date Functions (`DATE_FORMAT()`, `DATEDIFF()`, `DATE_ADD()`, `MONTH()`, `YEAR()`)
+- Modulo (`%`)
+- Weighted Averages
 - Subqueries
   - Scalar Subqueries
   - Correlated Subqueries
-  - Derived Tables (subquery in FROM)
-- Modulo (`%`)
-- Weighted Averages
-- Window Functions (`OVER`, `PARTITION BY`, `LAG()`, `LEAD()`, `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `SUM/AVG OVER`, `ROWS BETWEEN`)
+  - Derived Tables (subquery in `FROM`)
+  - `EXISTS` / `NOT EXISTS`
+- `UNION ALL`
+- `DELETE` (with subquery)
+- String Functions (`SUBSTRING`, `UPPER`, `LOWER`, `CONCAT`, `GROUP_CONCAT`)
+- Regex (`REGEXP`, Character Classes, Anchors, `COLLATE`, Case Sensitivity)
+- Window Functions (`OVER`, `PARTITION BY`, `LAG()`, `LEAD()`, `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `SUM/AVG/COUNT OVER`, `ROWS BETWEEN`, Moving Average)
 - CTEs (`WITH ... AS`)
 
- 
-**Up next:**
-- (no new concept immediately — next problems reinforce subqueries/window functions until the Advanced String Functions / Regex section)
+**Status:** SQL 50 study plan complete (50/50) ✅
