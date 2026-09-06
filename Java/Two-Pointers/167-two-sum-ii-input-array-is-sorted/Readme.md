@@ -1,7 +1,7 @@
 # 167. Two Sum II - Input Array Is Sorted
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange)
-![Topic](https://img.shields.io/badge/Topic-Java-red)
+![Topic](https://img.shields.io/badge/Topic-Two%20Pointers-red)
 ![Status](https://img.shields.io/badge/Status-Accepted-success)
 
 **Concepts:** Two Pointers · Sorted Array · Constant Space
