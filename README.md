@@ -2,9 +2,7 @@
 Daily/near-daily problem-solving practice across **SQL**, **Python**, and **Java** — building strong fundamentals one problem at a time, from basics up through applied concepts.
 
 ![SQL Progress](https://img.shields.io/badge/SQL-50%2F50-brightgreen)
-
 ![Python Progress](https://img.shields.io/badge/Python-4%2F50-darkyelllow)
-
 ![Java Progress](https://img.shields.io/badge/Java-8%2F%3F-red)
 
 ---
@@ -45,10 +43,13 @@ Each problem folder — in any language — contains:
 ## 🗂️ Folders
 ### [`SQL/`](./SQL/README.md)
 Following LeetCode's **SQL 50** study plan. Covers filtering, joins, aggregation, subqueries, and (up next) CTEs and window functions. MySQL syntax throughout.
+
 ### [`Python/`](./Python/README.md)
 Fundamentals-first practice via LeetCode's **Programming Skills** study plan, moving toward light OOP (Design-tagged problems) and applied data structures as the course progresses.
+
 ### [`Java/`](./Java/README.md)
 DSA-focused practice in Java, organized by algorithmic pattern (Binary Search, Two Pointers, Sorting, Recursion) rather than a flat problem list — applying concepts from the Telusko DSA series directly to LeetCode problems.
+
 ---
 ## 🎯 Goal
 Build strong fundamentals in SQL, Python, and Java through consistent, deliberate practice — prioritizing understanding and retention over speed or volume.
