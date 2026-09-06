@@ -1,7 +1,7 @@
 # 1051. Height Checker
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
-![Topic](https://img.shields.io/badge/Topic-Java-orange)
+![Topic](https://img.shields.io/badge/Topic-Selection%20Sort-blue)
 ![Status](https://img.shields.io/badge/Status-Accepted-brightgreen)
 
 **Concepts:** Selection Sort · Array Copy · Index Comparison
