@@ -1,7 +1,7 @@
 # 88. Merge Sorted Array
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
-![Topic](https://img.shields.io/badge/Topic-Java-orange)
+![Topic](https://img.shields.io/badge/Topic-Two%20Pointers-orange)
 ![Status](https://img.shields.io/badge/Status-Accepted-success)
 
 **Concepts:** Two Pointers · In-Place Merge · Backward Traversal
