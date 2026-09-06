@@ -1,7 +1,7 @@
 # 912. Sort an Array
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange)
-![Topic](https://img.shields.io/badge/Topic-Data%20Structures%20%26%20Algorithms-blue)
+![Topic](https://img.shields.io/badge/Topic-Quicksort-blue)
 ![Status](https://img.shields.io/badge/Status-Accepted-brightgreen)
 
 **Concepts:** Quicksort · Recursion · Lomuto Partition Scheme · Randomized Pivot Selection
