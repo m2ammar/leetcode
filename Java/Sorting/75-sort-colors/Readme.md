@@ -1,7 +1,7 @@
 # 75. Sort Colors
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange)
-![Topic](https://img.shields.io/badge/Topic-Java-orange)
+![Topic](https://img.shields.io/badge/Topic-Bubble%20Sort-orange)
 ![Status](https://img.shields.io/badge/Status-Accepted-success)
 
 **Concepts:** Nested Loops · Bubble Sort · In-Place Swap · Array
