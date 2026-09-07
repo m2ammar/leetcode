@@ -3,7 +3,7 @@ Daily/near-daily problem-solving practice across **SQL**, **Python**, and **Java
 
 ![SQL Progress](https://img.shields.io/badge/SQL-50%2F50-brightgreen)
 ![Python Progress](https://img.shields.io/badge/Python-4%2F50-darkyelllow)
-![Java Progress](https://img.shields.io/badge/Java-8%2F%3F-red)
+![Java Progress](https://img.shields.io/badge/Java-9%2F%3F-red)
 
 ---
 ## 📁 Repository Structure
@@ -34,6 +34,7 @@ leetcode/
     │   ├── 1051-height-checker/
     │   └── 912-sort-an-array/
     └── Recursion/
+        ├── 50-pow-x-n/
         └── 509-fibonacci-number/
 ```
 Each problem folder — in any language — contains:
