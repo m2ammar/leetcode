@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-9%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-10%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -37,6 +37,9 @@ Java/
         ├── 50-pow-x-n/
         |   ├── solution.java
         |   └── README.md
+        ├── 70-climbing-stairs/
+        |   ├── solution.java
+        |   └── README.md
         └── 509-fibonacci-number/
             ├── Solution.java
             └── README.md
@@ -58,6 +61,7 @@ Each problem folder contains:
 | 912 | Sort an Array | Sorting | 🟠 Medium | Quicksort, Recursion, Lomuto Partition Scheme, Randomized Pivot Selection |
 | 509 | Fibonacci Number | Recursion | 🟢 Easy | Recursion, Base Cases, Call Stack |
 | 50 | Pow x n | Recursion | 🟠 Medium | Recursion, Divide and Conquer, Integer Overflow Handling |
+| 70 | Climbing Stairs | Recursion | 🟢 Easy | Recursion, Base Cases, Memoization, Overlapping Subproblems |
 > This table is updated as I solve more problems.
 
 ---
