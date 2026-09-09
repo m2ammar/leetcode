@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-10%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-11%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -18,6 +18,9 @@ Java/
 │       └── README.md
 ├── Two-Pointers/
 │   ├── 167-two-sum-ii-input-array-is-sorted/
+│   │   ├── solution.java
+│   │   └── README.md
+|   ├── 11-container-with-most-water/
 │   │   ├── solution.java
 │   │   └── README.md
 │   └── 88-merge-sorted-array/
@@ -62,6 +65,7 @@ Each problem folder contains:
 | 509 | Fibonacci Number | Recursion | 🟢 Easy | Recursion, Base Cases, Call Stack |
 | 50 | Pow x n | Recursion | 🟠 Medium | Recursion, Divide and Conquer, Integer Overflow Handling |
 | 70 | Climbing Stairs | Recursion | 🟢 Easy | Recursion, Base Cases, Memoization, Overlapping Subproblems |
+| 11 | Container with most Water | Two Pointers | 🟠 Medium | Two Pointers, Greedy Pointer Movement, Array Traversal |
 > This table is updated as I solve more problems.
 
 ---
