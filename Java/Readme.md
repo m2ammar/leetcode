@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-11%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-12%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -21,6 +21,9 @@ Java/
 │   │   ├── solution.java
 │   │   └── README.md
 |   ├── 11-container-with-most-water/
+│   │   ├── solution.java
+│   │   └── README.md
+|   ├── 42-trapping-rain-water/
 │   │   ├── solution.java
 │   │   └── README.md
 │   └── 88-merge-sorted-array/
@@ -66,6 +69,7 @@ Each problem folder contains:
 | 50 | Pow x n | Recursion | 🟠 Medium | Recursion, Divide and Conquer, Integer Overflow Handling |
 | 70 | Climbing Stairs | Recursion | 🟢 Easy | Recursion, Base Cases, Memoization, Overlapping Subproblems |
 | 11 | Container with most Water | Two Pointers | 🟠 Medium | Two Pointers, Greedy Pointer Movement, Array Traversal |
+| 42 | Trapping Rain Water | Two-Pointers | 🔴 Hard | Two Pointers, Running Maximum, Greedy |
 > This table is updated as I solve more problems.
 
 ---
@@ -86,5 +90,5 @@ Build strong data structures and algorithms fundamentals in Java, applying conce
 
 **Up next:**
 - Sliding Window
-- More Two Pointers variants (3Sum, Container With Most Water)
+- More Two Pointers variants (3Sum)
 - Linked Lists
