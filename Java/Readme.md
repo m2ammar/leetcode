@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-12%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-13%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -39,16 +39,20 @@ Java/
 │   └── 912-sort-an-array/
 │       ├── solution.java
 │       └── README.md
-└── Recursion/
-        ├── 50-pow-x-n/
-        |   ├── solution.java
-        |   └── README.md
-        ├── 70-climbing-stairs/
-        |   ├── solution.java
-        |   └── README.md
-        └── 509-fibonacci-number/
-            ├── Solution.java
-            └── README.md
+├── Recursion/
+│   ├── 50-pow-x-n/
+│   │   ├── solution.java
+│   │   └── README.md
+│   ├── 70-climbing-stairs/
+│   │   ├── solution.java
+│   │   └── README.md
+│   └── 509-fibonacci-number/
+│       ├── Solution.java
+│       └── README.md
+└── Single-Pass/
+    └── 121-best-time-to-buy-and-sell-stock/
+        ├── solution.java
+        └── README.md
 ```
 Each problem folder contains:
 - 📘 `README.md` — Problem summary, explanation, concepts, and key learnings
@@ -70,6 +74,7 @@ Each problem folder contains:
 | 70 | Climbing Stairs | Recursion | 🟢 Easy | Recursion, Base Cases, Memoization, Overlapping Subproblems |
 | 11 | Container with most Water | Two Pointers | 🟠 Medium | Two Pointers, Greedy Pointer Movement, Array Traversal |
 | 42 | Trapping Rain Water | Two-Pointers | 🔴 Hard | Two Pointers, Running Maximum, Greedy |
+| 121 | Best Time to Buy and Sell Stock | Single-Pass | 🟢 Easy | Array Traversal, Greedy, Running Minimum |
 > This table is updated as I solve more problems.
 
 ---
@@ -87,6 +92,7 @@ Build strong data structures and algorithms fundamentals in Java, applying conce
 - Selection Sort
 - Quicksort
 - Recursion (base cases, call stack tracing)
+- Single-Pass / Greedy (running min/max tracking)
 
 **Up next:**
 - Sliding Window
