@@ -1,7 +1,8 @@
 # 🧠 LeetCode Practice
 Daily/near-daily problem-solving practice across **SQL**, **Python**, and **Java** — building strong fundamentals one problem at a time, from basics up through applied concepts.
 
-![SQL Progress](https://img.shields.io/badge/SQL-50%2F50-brightgreen)
+![SQL Progress](https://img.shields.io/badge/SQL%2050-50%2F50-brightgreen)
+![SQL Extra Progress](https://img.shields.io/badge/SQL_Database-1-blue)
 ![Python Progress](https://img.shields.io/badge/Python-4%2F50-darkyelllow)
 ![Java Progress](https://img.shields.io/badge/Java-13%2F%3F-red)
 
@@ -10,11 +11,16 @@ Daily/near-daily problem-solving practice across **SQL**, **Python**, and **Java
 ```text
 leetcode/
 ├── SQL/
-│   ├── README.md              ← SQL progress, structure, topics covered
-│   ├── 197_Rising_Temperature/
-│   ├── 570_Managers_with_at_Least_5_Direct_Reports/
-│   ├── 596_Classes_With_at_Least_5_Students/
-│   └── ... (all SQL problem folders)
+│   ├── README.md              ← SQL overview, links to SQL50 and Database
+│   ├── SQL50/
+│   │   ├── README.md          ← SQL 50 study plan progress, structure, topics
+│   │   ├── 197_Rising_Temperature/
+│   │   ├── 570_Managers_with_at_Least_5_Direct_Reports/
+│   │   ├── 596_Classes_With_at_Least_5_Students/
+│   │   └── ... (all 50 SQL50 problem folders)
+│   └── Database/
+│       ├── 177_Nth_Highest_Salary/
+│       └── ... (post-SQL50 practice, added as solved)
 ├── Python/
 │   ├── README.md         ← Python progress, structure, topics covered
 │   ├── 1768_Merge_Strings_Alternately/
@@ -43,7 +49,7 @@ Each problem folder — in any language — contains:
 ---
 ## 🗂️ Folders
 ### [`SQL/`](./SQL/README.md)
-Following LeetCode's **SQL 50** study plan. Covers filtering, joins, aggregation, subqueries, and (up next) CTEs and window functions. MySQL syntax throughout.
+Split into two parts: **SQL50/**, LeetCode's SQL 50 study plan (completed 50/50), and **Database/**, ongoing practice pulled from LeetCode's Database tag. MySQL syntax throughout.
 
 ### [`Python/`](./Python/README.md)
 Fundamentals-first practice via LeetCode's **Programming Skills** study plan, moving toward light OOP (Design-tagged problems) and applied data structures as the course progresses.
