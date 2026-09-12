@@ -8,7 +8,7 @@
 ---
 ## 📁 Repository Structure
 ```text
-SQL/
+SQL50/
 ├── 197_Rising_Temperature/
 │   ├── README.md
 │   └── solution.sql
