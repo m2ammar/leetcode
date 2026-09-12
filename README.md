@@ -11,7 +11,6 @@ Daily/near-daily problem-solving practice across **SQL**, **Python**, and **Java
 ```text
 leetcode/
 ├── SQL/
-│   ├── README.md              ← SQL overview, links to SQL50 and Database
 │   ├── SQL50/
 │   │   ├── README.md          ← SQL 50 study plan progress, structure, topics
 │   │   ├── 197_Rising_Temperature/
