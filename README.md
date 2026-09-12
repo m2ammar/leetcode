@@ -47,8 +47,8 @@ Each problem folder — in any language — contains:
 - 💻 `solution.sql`, `solution.py`, or `Solution.java` — the accepted solution
 ---
 ## 🗂️ Folders
-### [`SQL/`](./SQL/README.md)
-Split into two parts: **SQL50/**, LeetCode's SQL 50 study plan (completed 50/50), and **Database/**, ongoing practice pulled from LeetCode's Database tag. MySQL syntax throughout.
+### **SQL/**
+Split into two parts: [`SQL50/`](./SQL/SQL50/README.md), LeetCode's SQL 50 study plan (completed 50/50), and **Database/**, ongoing practice pulled from LeetCode's Database tag. MySQL syntax throughout.
 
 ### [`Python/`](./Python/README.md)
 Fundamentals-first practice via LeetCode's **Programming Skills** study plan, moving toward light OOP (Design-tagged problems) and applied data structures as the course progresses.
