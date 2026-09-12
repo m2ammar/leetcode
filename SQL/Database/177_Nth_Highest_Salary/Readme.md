@@ -1,6 +1,6 @@
 # 177. Nth Highest Salary
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange)
 ![Topic](https://img.shields.io/badge/Topic-SQL-blue)
 ![Status](https://img.shields.io/badge/Status-Accepted-brightgreen)
 
@@ -40,11 +40,12 @@ END
 ## 🤔 Why DECLARE + SET?
 MySQL's `LIMIT`/`OFFSET` clauses only accept literals or variables — not arithmetic expressions computed inline.
 
-N (rank) → offset (rows to skip)
-1 (highest) → 0
-2 → 1
-3 → 2
-
+```
+N (rank)     →  offset (rows to skip)
+1 (highest)  →  0
+2            →  1
+3            →  2
+```
 
 ## 🚫 Why not a fixed subquery (like MAX + WHERE <)?
 176's approach only needs one comparison for "2nd highest." Since N is variable here, you'd need an unknown number of chained comparisons. Sorting once with LIMIT/OFFSET scales to any N.
