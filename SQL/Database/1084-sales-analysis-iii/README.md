@@ -55,10 +55,12 @@ Filtering the date in `WHERE` only removes individual *rows* — it can't tell y
 Grouping by `product_id` first keeps every sale row for that product visible. Then `MIN(sale_date)` and `MAX(sale_date)` give you the two extreme edges of that product's entire sales history. If both edges sit inside Q1 2019, every date in between must too — there's no way for a middle value to escape past its own extremes.
 
 Sample result for product 1 (S8):
+
+​```
 sale_date
-
-2019-01-21 <- only sale, so MIN = MAX = 2019-01-21, both inside range → included
-
+----------
+2019-01-21   <- only sale, so MIN = MAX = 2019-01-21, both inside range → included
+​```
 
 ---
 
