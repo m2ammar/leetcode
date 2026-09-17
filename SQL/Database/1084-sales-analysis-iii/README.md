@@ -43,12 +43,11 @@ HAVING MIN(s.sale_date) >= '2019-01-01' AND MAX(s.sale_date) <= '2019-03-31';
 `Product` and `Sales` share `product_id`. One product can have many sale rows spread across many dates.
 
 ```
-Product Sales
-+----+ +-----------+------------+
-| id |------<| product_id| sale_date |
-+----+ +-----------+------------+
+Product            Sales
++----+       +-----------+------------+
+| id |------<| product_id| sale_date  |
++----+       +-----------+------------+
 ```
-
 
 Filtering the date in `WHERE` only removes individual *rows* — it can't tell you whether a product also has other sales sitting outside the range, because those rows get thrown away before you ever look at them.
 
@@ -56,11 +55,11 @@ Grouping by `product_id` first keeps every sale row for that product visible. Th
 
 Sample result for product 1 (S8):
 
-​```
+```
 sale_date
 ----------
 2019-01-21   <- only sale, so MIN = MAX = 2019-01-21, both inside range → included
-​```
+```
 
 ---
 
