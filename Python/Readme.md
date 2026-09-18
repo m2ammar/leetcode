@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Python3-blue)
 ![Study Plan](https://img.shields.io/badge/Study%20Plan-Programming%20Skills-orange)
-![Progress](https://img.shields.io/badge/Progress-4%2F50-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-5%2F50-brightgreen)
 
 ---
 
@@ -19,6 +19,9 @@ Python/
 │   ├── README.md
 │   └── solution.py
 ├── 28-find-the-index-of-the-first-occurrence-in-a-string/
+│   ├── README.md
+│   └── solution.py
+├── 459-repeated-substring-pattern/
 │   ├── README.md
 │   └── solution.py
 └── 242_Valid_Anagram/
@@ -40,6 +43,7 @@ Each problem folder contains:
 | 389 | Find the Difference | 🟢 Easy | `collections.Counter`, `Hash Map`, `Dictionary Subtraction`, `iter()`, `next()` |
 | 28 | Find the Index of the First Occurrence in a String | 🟢 Easy | `String Searching`, `Built-in Methods`, Sliding Window `(manual alternative)` |
 | 242 | Valid Anagram | 🟢 Easy | `Hash Map`, `collections.Counter`,  String |
+| 459 | Repeated Substring Pattern | 🟢 Easy | String Slicing, Divisors, String Multiplication, Iteration |
 
 > This table is updated as I solve more problems.
 
