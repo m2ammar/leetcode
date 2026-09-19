@@ -3,7 +3,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-red)
 ![Focus](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
-![Progress](https://img.shields.io/badge/Progress-13%2F%3F-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-14%2F%3F-brightgreen)
 
 ---
 ## 📁 Repository Structure
@@ -47,10 +47,13 @@ Java/
 │   │   ├── solution.java
 │   │   └── README.md
 │   └── 509-fibonacci-number/
-│       ├── Solution.java
+│       ├── solution.java
 │       └── README.md
 └── Single-Pass/
-    └── 121-best-time-to-buy-and-sell-stock/
+    ├── 121-best-time-to-buy-and-sell-stock/
+    │   ├── solution.java
+    │   └── README.md
+    └── 1-two-sum/
         ├── solution.java
         └── README.md
 ```
@@ -72,9 +75,10 @@ Each problem folder contains:
 | 509 | Fibonacci Number | Recursion | 🟢 Easy | Recursion, Base Cases, Call Stack |
 | 50 | Pow x n | Recursion | 🟠 Medium | Recursion, Divide and Conquer, Integer Overflow Handling |
 | 70 | Climbing Stairs | Recursion | 🟢 Easy | Recursion, Base Cases, Memoization, Overlapping Subproblems |
-| 11 | Container with most Water | Two Pointers | 🟠 Medium | Two Pointers, Greedy Pointer Movement, Array Traversal |
-| 42 | Trapping Rain Water | Two-Pointers | 🔴 Hard | Two Pointers, Running Maximum, Greedy |
-| 121 | Best Time to Buy and Sell Stock | Single-Pass | 🟢 Easy | Array Traversal, Greedy, Running Minimum |
+│ 11 │ Container with most Water | Two-Pointers | 🟠 Medium | Two Pointers, Greedy Pointer Movement, Array Traversal |
+│ 42 │ Trapping Rain Water | Two-Pointers | 🔴 Hard | Two Pointers, Running Maximum, Greedy |
+│ 121 │ Best Time to Buy and Sell Stock | Single-Pass | 🟢 Easy | Array Traversal, Greedy, Running Minimum |
+| 1 | Two Sum | Single-Pass | 🟢 Easy | HashMap, Complement Lookup, One Pass |
 > This table is updated as I solve more problems.
 
 ---
@@ -93,6 +97,7 @@ Build strong data structures and algorithms fundamentals in Java, applying conce
 - Quicksort
 - Recursion (base cases, call stack tracing)
 - Single-Pass / Greedy (running min/max tracking)
+- Hash Map (complement lookup, "seen before" checks)
 
 **Up next:**
 - Sliding Window
