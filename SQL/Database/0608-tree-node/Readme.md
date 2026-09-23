@@ -47,9 +47,10 @@ from Tree;
 Both tables involved are actually the **same table**, referenced twice — once as the outer row being classified (`Tree`), and once as an inner scan (`t`) checking every other row's `p_id`.
 
 ```
-Outer row (Tree) Inner scan (t)
-id = 2 <----match---- t.p_id = 2 (row: id=4, p_id=2)
-<----match---- t.p_id = 2 (row: id=5, p_id=2)
+| Outer row (`Tree`) | Inner scan (`t`)                  |
+|---------------------|------------------------------------|
+| `id = 2`             | `t.p_id = 2` → matches row `id=4, p_id=2` |
+|                      | `t.p_id = 2` → matches row `id=5, p_id=2` |
 ```
 
 If id `2` shows up as `p_id` anywhere in `t`, it means `2` has children — so it's `Inner`.
