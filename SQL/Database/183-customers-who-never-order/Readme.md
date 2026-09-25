@@ -47,14 +47,15 @@ WHERE o.customerId IS NULL;
 Join column: `Customers.id` ↔ `Orders.customerId`
 
 ```
-Customers Orders
-+----+-------+ +----+------------+
-| id | name | | id | customerId |
-+----+-------+ +----+------------+
-| 1 | Joe | <----> | 2 | 1 |
-| 2 | Henry | ----> NULL (no match)
-| 3 | Sam | <----> | 1 | 3 |
-| 4 | Max | ----> NULL (no match)
+ Customers                    Orders
++----+-------+          +----+------------+
+| id | name  |          | id | customerId |
++----+-------+          +----+------------+
+| 1  | Joe   |  <------ | 2  |     1      |
+| 2  | Henry |  --X (no match)
+| 3  | Sam   |  <------ | 1  |     3      |
+| 4  | Max   |  --X (no match)
++----+-------+
 ```
 
 
