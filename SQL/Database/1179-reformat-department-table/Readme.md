@@ -65,6 +65,7 @@ id | revenue | month
 ```
 
 Conditional aggregation lets us "widen" this into one row per department, since `GROUP BY id` groups all of a department's rows together, and each `CASE` isolates one month's value out of that group.
+```
 
    Department (long)              Reformatted (wide)
   id -- month -- revenue          id | Jan | Feb | Mar | ...
@@ -72,6 +73,7 @@ Conditional aggregation lets us "widen" this into one row per department, since 
   1  -- Feb   -- 7000
   1  -- Mar   -- 6000
 
+```
   
 ---
 
