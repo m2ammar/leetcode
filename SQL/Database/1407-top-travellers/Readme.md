@@ -228,7 +228,3 @@ LEFT JOIN Rides AS r
 GROUP BY u.id
 ORDER BY travelled_distance DESC, u.name ASC;
 ```
-
-**LeetCode:** 1407
-**Difficulty:** Easy
-**Topics:** `LEFT JOIN` · `SUM()` · `COALESCE()` · `GROUP BY` · `ORDER BY`
