@@ -129,4 +129,41 @@ After the first loop, `fast` is `null` on even lists, and one pair never proves 
 
 ## 🏁 Final Solution
 
-See `solution.java`.
+```java
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        ListNode current = slow;
+        ListNode prev = null;
+        ListNode temp = null;
+
+        while (current != null) {
+            temp = current.next;
+            current.next = prev;
+            prev = current;
+            current = temp;
+        }
+
+        ListNode left = head;
+        ListNode right = prev;
+
+        while (right != null) {
+            if (right.val != left.val) {
+                return false;
+            }
+            right = right.next;
+            left = left.next;
+        }
+
+        return true;
+    }
+}
+```
